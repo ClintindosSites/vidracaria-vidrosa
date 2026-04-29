@@ -1,0 +1,93 @@
+"use client";
+
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+
+export default function Header() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <header className="header" id="header">
+      <div className="header-container">
+        <Link href="#" className="logo">
+          <Image
+            src="/logo.webp"
+            alt="Logomarca da Vidraçaria Vidrosa, Comércio de Vidros e esquadiras de alumínio em Belo Horizonte"
+            width={70}
+            height={70}
+            loading="eager"
+          />
+        </Link>
+        <nav className="menu">
+          <Link href={"/"}>Página Inicial</Link>
+          <Link href={"/#servicos"}>Serviços</Link>
+          <Link href={"/#fotos"}>Projetos Realizados</Link>
+          <Link href={"/servicos/box-de-banheiro"}>Box de Banheiro</Link>
+          <Link href={"/servicos/esquadrias-de-aluminio"}>
+            Esquadrias de Alumínio
+          </Link>
+          <Link href={"/servicos/fachada-de-vidro"}>Fachada de Vidro</Link>
+          <Link href={"/servicos/guarda-corpo"}>Guarda Corpo</Link>
+          <Link href={"/servicos/janelas-blindex"}>Janelas</Link>
+          <Link href={"/servicos/portas-blindex"}>Portas</Link>
+          <Link href={"/servicos/espelho"}>Espelho</Link>
+          <Link href={"/solicite-orcamento"} className="contato-btn">
+            Pedir Orçamento
+          </Link>
+        </nav>
+
+        {/* HAMBURGER */}
+        <div className="hamburger" onClick={() => setOpen(!open)}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      {/* MENU MOBILE OVERLAY */}
+      <div className={`mobile-menu ${open ? "active" : ""}`}>
+        <Link href="/" onClick={() => setOpen(false)}>
+          Início
+        </Link>
+        <Link href="/#servicos" onClick={() => setOpen(false)}>
+          Serviços
+        </Link>
+        <Link href="/#fotos" onClick={() => setOpen(false)}>
+          Projetos
+        </Link>
+        <Link href="/servicos/box-de-banheiro" onClick={() => setOpen(false)}>
+          Box de Banheiro
+        </Link>
+        <Link
+          href="/servicos/esquadrias-de-aluminio"
+          onClick={() => setOpen(false)}
+        >
+          Esquadrias de Alumínio
+        </Link>
+        <Link href="/servicos/fachada-de-vidro" onClick={() => setOpen(false)}>
+          Fachada de Vidro
+        </Link>
+
+        <Link href="/servicos/guarda-corpo" onClick={() => setOpen(false)}>
+          Guarda Corpo
+        </Link>
+        <Link href="/servicos/janelas-blindex" onClick={() => setOpen(false)}>
+          Janelas
+        </Link>
+        <Link href="/servicos/portas-blindex" onClick={() => setOpen(false)}>
+          Portas
+        </Link>
+        <Link href="/servicos/espelho" onClick={() => setOpen(false)}>
+          Espelho
+        </Link>
+        <Link
+          href="/solicite-orcamento"
+          className="contato-btn"
+          onClick={() => setOpen(false)}
+        >
+          Pedir Orçamento
+        </Link>
+      </div>
+    </header>
+  );
+}
