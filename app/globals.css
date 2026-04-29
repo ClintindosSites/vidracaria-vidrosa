@@ -2,7 +2,8 @@
 
 :root {
   --background: #06121e;
-  --foreground: #171717;
+  --foreground-2: #171717;
+  --foreground: #0a0a0a;
   --whitesmoke: var(--whitesmoke);
 }
 
@@ -16,8 +17,8 @@ html {
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #06121e;
+    --foreground: #fff;
   }
 }
 
@@ -38,7 +39,7 @@ body {
 }
 
 .header-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 15px 20px;
 
@@ -46,11 +47,16 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
 /* MENU DESKTOP */
 .menu {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   align-items: center;
 }
 
@@ -63,14 +69,21 @@ body {
 .menu a:hover {
   color: #00d4ff;
 }
-
+header .contato-btn {
+  color: #06121e;
+}
+header .contato-btn:hover {
+  color: #06121e;
+}
 /* BOTÃO CTA */
 .contato-btn {
-  background: linear-gradient(90deg, #00d4ff, #00a3cc);
-  color: #06121e;
-  padding: 10px 18px;
+  padding: 14px 24px;
   border-radius: 30px;
-  font-weight: 600;
+  color: #06121e;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 20px 0;
+  background: linear-gradient(to right, #fff, rgb(32, 153, 187));
   transition: 0.3s;
   width: fit-content;
 }
@@ -101,7 +114,7 @@ body {
   top: 0;
   right: 0;
   width: 50%;
-  height: 100vh;
+  height: 80vh;
   background: #06121e;
   display: flex;
   flex-direction: column;
@@ -131,4 +144,168 @@ body {
   .hamburger {
     display: flex;
   }
+}
+
+/*HERO DA PAGINA*/
+.hero {
+  position: relative;
+  height: 80vh;
+  background: url("/hero-vidracaria.webp") top/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* OVERLAY ESCURO (ESSENCIAL PRA UX) */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(6, 18, 30, 0.7);
+}
+
+/* CONTEÚDO */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1400px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  color: gold;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero-content p {
+  margin: 20px 0;
+  background: linear-gradient(to right, #fff, rgb(32, 153, 187));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.btn-primary {
+  padding: 14px 24px;
+  border-radius: 30px;
+  color: #06121e;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  background: linear-gradient(to right, #fff, rgb(32, 153, 187));
+}
+
+.cta-button {
+  padding: 14px 24px;
+  border-radius: 30px;
+  color: #06121e;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 20px 0;
+  background: linear-gradient(to right, #fff, rgb(32, 153, 187));
+}
+.cta-button:hover {
+  background-color: #ededed;
+  color: #06121e;
+  border: #06121e 2px solid;
+}
+
+/* BENEFÍCIOS */
+.hero-benefits {
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background: linear-gradient(to right, #fff, rgb(32, 153, 187));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 120px 20px 60px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  .container {
+    padding: 20px;
+  }
+}
+
+/*SERVIÇOS*/
+.servicos .container {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.servicos h2 {
+  color: gold;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+}
+.servicos .subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.servicos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.servicos-card {
+  background: #0b1c2c;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.servicos-card:hover {
+  transform: translateY(-5px);
+}
+
+.servico-img {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.servico-text {
+  padding: 20px;
+}
+
+.servicos-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 20px 20px;
+}
+.saiba-mais {
+  padding: 14px 24px;
+  border-radius: 30px;
+  background-color: #06121e;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
 }

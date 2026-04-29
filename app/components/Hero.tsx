@@ -1,3 +1,26 @@
+import Link from "next/link";
+
 export default function Hero() {
-  return <section></section>;
+  return (
+    <section className="hero">
+      <div className="overlay"></div>
+
+      <div className="hero-content">
+        <h1>A vidraçaria que transforma sua visão em realidade</h1>
+
+        <p>
+          Box de banheiro, fachadas, espelhos e esquadrias de alumínio sob
+          medida. Atendimento rápido em Belo Horizonte e região.
+        </p>
+
+        <Link
+          href="https://wa.me/5531992799772"
+          target="_blank"
+          className="cta-button"
+        >
+          Solicitar orçamento pelo WhatsApp
+        </Link>
+      </div>
+    </section>
+  );
 }
