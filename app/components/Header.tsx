@@ -22,7 +22,7 @@ export default function Header() {
         <nav className="menu">
           <Link href={"/"}>Página Inicial</Link>
           <Link href={"/#servicos"}>Serviços</Link>
-          <Link href={"/#fotos"}>Projetos Realizados</Link>
+          <Link href={"/projetos-realizados"}>Projetos Realizados</Link>
           <Link href={"/servicos/box-de-banheiro"}>Box de Banheiro</Link>
           <Link href={"/servicos/esquadrias-de-aluminio"}>
             Esquadrias de Alumínio

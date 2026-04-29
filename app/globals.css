@@ -211,6 +211,7 @@ header .contato-btn:hover {
   color: #06121e;
   font-weight: 500;
   text-transform: uppercase;
+  text-align: center;
   margin: 20px 0;
   background: linear-gradient(to right, #fff, rgb(32, 153, 187));
 }
@@ -308,4 +309,139 @@ header .contato-btn:hover {
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
+}
+/*SESSÃO SOBRE*/
+.sobre {
+  padding: 80px 20px;
+  background: #06121e;
+  color: white;
+}
+
+.sobre-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+/* TEXTO */
+.sobre-text h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.sobre-text span {
+  color: gold;
+}
+
+.sobre-text p {
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+/* IMAGENS */
+.sobre-images {
+  position: relative;
+  height: 500px;
+}
+
+.img {
+  position: absolute;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.img img {
+  object-fit: cover;
+}
+
+/* POSIÇÕES */
+.img1 {
+  width: 60%;
+  height: 60%;
+  top: 0;
+  left: 0;
+}
+
+.img2 {
+  width: 80%;
+  height: 55%;
+  bottom: 0;
+  right: 0;
+}
+
+.img3 {
+  width: 50%;
+  height: 50%;
+  top: 10%;
+  left: 40%;
+  border: 5px solid #06121e;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .sobre-container {
+    grid-template-columns: 1fr;
+  }
+
+  .sobre-images {
+    height: 400px;
+    margin-top: 30px;
+  }
+}
+/* faq */
+.faq {
+  padding: 80px 20px;
+  background: #081b2b;
+  color: white;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.faq h2 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.faq-subtitle {
+  text-align: center;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.faq-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px 0;
+}
+
+.faq-question {
+  width: 100%;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.faq-item.active .faq-answer {
+  max-height: 200px;
+  margin-top: 10px;
+}
+
+.faq-answer p {
+  color: #ccc;
 }
