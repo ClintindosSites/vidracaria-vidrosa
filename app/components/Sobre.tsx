@@ -1,7 +1,9 @@
 "use client";
 
+import { trackWhatsAppClick } from "../lib/analytics";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Sobre() {
   return (
@@ -31,6 +33,14 @@ export default function Sobre() {
             divisórias, nossa equipe dedicada trabalha incansavelmente para
             garantir a satisfação do cliente em cada projeto.
           </p>
+          <Link
+            href="https://wa.me/5531992799772"
+            target="_blank"
+            className="cta-button"
+            onClick={trackWhatsAppClick}
+          >
+            Solicitar orçamento pelo WhatsApp
+          </Link>
         </motion.div>
 
         {/* IMAGENS */}

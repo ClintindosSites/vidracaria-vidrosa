@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { trackWhatsAppClick } from "../lib/analytics";
 
 export default function Hero() {
   return (
@@ -17,6 +20,7 @@ export default function Hero() {
           href="https://wa.me/5531992799772"
           target="_blank"
           className="cta-button"
+          onClick={trackWhatsAppClick}
         >
           Solicitar orçamento pelo WhatsApp
         </Link>

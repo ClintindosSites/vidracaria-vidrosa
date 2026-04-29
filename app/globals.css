@@ -155,7 +155,13 @@ header .contato-btn:hover {
   align-items: center;
   padding: 0 20px;
 }
-
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(6, 18, 30, 0.7); /* cor escura */
+  z-index: -1;
+}
 /* OVERLAY ESCURO (ESSENCIAL PRA UX) */
 .overlay {
   position: absolute;
@@ -280,7 +286,13 @@ header .contato-btn:hover {
   overflow: hidden;
   transition: 0.3s;
 }
-
+.servicos-card h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.servicos-card p {
+  color: 1.5rem;
+}
 .servicos-card:hover {
   transform: translateY(-5px);
 }
@@ -331,6 +343,7 @@ header .contato-btn:hover {
   font-size: 32px;
   margin-bottom: 20px;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .sobre-text span {
@@ -341,7 +354,10 @@ header .contato-btn:hover {
   margin-bottom: 15px;
   color: #ccc;
 }
-
+.sobre-text {
+  display: flex;
+  flex-direction: column;
+}
 /* IMAGENS */
 .sobre-images {
   position: relative;
@@ -407,6 +423,7 @@ header .contato-btn:hover {
 .faq h2 {
   font-size: 32px;
   text-align: center;
+  font-weight: 700;
 }
 
 .faq-subtitle {
@@ -444,4 +461,227 @@ header .contato-btn:hover {
 
 .faq-answer p {
   color: #ccc;
+}
+/*sessão cta final*/
+.cta-final {
+  position: relative;
+  padding: 80px 20px;
+  background: url("/images/janelas/fachada-de-vidro.webp") center/cover
+    no-repeat;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+/* OVERLAY */
+.cta-final::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(6, 18, 30, 0.7); /* cor escura */
+  z-index: -1;
+}
+.cta-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.cta-final h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.cta-final p {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.cta-form {
+  max-width: 500px;
+  margin: 30px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #06121e;
+  padding: 20px;
+  border-radius: 20px;
+  color: #fff;
+}
+.cta-form label {
+  text-align: left;
+}
+.cta-form input,
+.cta-form textarea {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background: #ccc;
+  color: #06121e;
+}
+.cta-form h3 {
+  background: linear-gradient(to right, #fff, rgb(32, 153, 187));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+.cta-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* BENEFÍCIOS */
+.cta-benefits {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .cta-benefits {
+    flex-direction: column;
+  }
+}
+/*footer*/
+.footer {
+  background: #06121e;
+  color: #ccc;
+  padding: 60px 20px 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.footer-col h4 {
+  margin-bottom: 15px;
+  color: white;
+}
+
+.footer-col p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-col a {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+.footer-col a:hover {
+  color: #00d4ff;
+}
+
+/* SOCIAL */
+.socials {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #0b1c2c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.icon svg {
+  width: 30px;
+  height: 30px;
+  fill: #ccc;
+  transition: 0.3s;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* HOVER GERAL */
+.icon:hover {
+  transform: translateY(-3px);
+}
+
+/* CORES POR REDE */
+.icon.facebook:hover {
+  background: #1877f2;
+}
+
+.icon.instagram:hover {
+  background: #e1306c;
+}
+
+.icon.whatsapp:hover {
+  background: #25d366;
+}
+
+.icon:hover svg {
+  fill: white;
+}
+/* BOTTOM */
+.footer-bottom {
+  margin-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-legal {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-legal a {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.footer-legal a:hover {
+  color: #00d4ff;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
 }

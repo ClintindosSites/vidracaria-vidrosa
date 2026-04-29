@@ -1,3 +1,4 @@
+import CtaFinal from "./components/CtaFinal";
 import Faq from "./components/FAQ";
 import Hero from "./components/Hero";
 import Servicos from "./components/Servicos";
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <Servicos />
       <Sobre />
+      <CtaFinal />
       <Faq />
     </>
   );
