@@ -698,18 +698,38 @@ header .contato-btn:hover {
     height: auto;
     padding: 120px 20px 60px;
   }
-
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
   .hero-content h1 {
     font-size: 2rem;
   }
-  .container {
+  .servicos-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     padding: 20px;
+    margin-top: 20px;
+  }
+  .container {
+    padding: 10px;
   }
   .service-grid {
     display: flex;
     flex-wrap: wrap;
   }
   .servicos-buttons {
+    padding: 10px;
+  }
+  .servicos-buttons .cta-button {
+    line-height: 1;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .saiba-mais {
     padding: 10px;
   }
   .cta-buttons {
@@ -743,6 +763,7 @@ header .contato-btn:hover {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    padding: 10px;
   }
   .footer-bottom {
     align-items: center;
@@ -757,6 +778,7 @@ header .contato-btn:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    justify-content: space-between;
   }
   .footer-text {
     display: flex;
