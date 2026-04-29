@@ -5,6 +5,7 @@ import { Oswald } from "next/font/google";
 import Script from "next/script";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import WhatsappFloat from "./components/WhatsappFloat";
 
 // 🔤 FONTE
 const oswald = Oswald({
@@ -116,6 +117,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <WhatsappFloat />
       </body>
     </html>
   );
