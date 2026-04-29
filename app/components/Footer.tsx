@@ -98,6 +98,17 @@ export default function Footer() {
           © {new Date().getFullYear()} Vidrosa. Todos os direitos reservados.
         </p>
 
+        <p>
+          Desesenvolvido por{" "}
+          <Link
+            href={"https://clintindossites.com.br"}
+            target="_blank"
+            className="cds"
+          >
+            Clintin dos Sites
+          </Link>
+        </p>
+
         <div className="footer-legal">
           <Link href="/politica-de-privacidade">Política de Privacidade</Link>
 

@@ -51,6 +51,20 @@ export default function Servicos() {
       image: "/images/guarda-corpo/guarda-corpo-16.webp",
       link: "/servicos/guarda-corpo",
     },
+    {
+      name: "Porta Slide Door",
+      description:
+        "Porta SlideDoor é uma porta de vidro temperado com 4  ou mais folhas de correr podendo ir de um lado a para o outro",
+      image: "/images/guarda-corpo/guarda-corpo-16.webp",
+      link: "/servicos/porta-slidedoor",
+    },
+    {
+      name: "Pergolado",
+      description:
+        "Teto pergolado de vidro temperado com pelicula de segurança PS-04. Teto bonito, resistente e com segurança",
+      image: "/images/guarda-corpo/pergolado.webp",
+      link: "/servicos/porta-slidedoor",
+    },
   ];
   return (
     <section className="servicos" id="servicos">

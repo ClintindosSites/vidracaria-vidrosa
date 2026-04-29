@@ -411,7 +411,7 @@ header .contato-btn:hover {
 /* faq */
 .faq {
   padding: 80px 20px;
-  background: #081b2b;
+  background: #06121e;
   color: white;
 }
 
@@ -424,6 +424,8 @@ header .contato-btn:hover {
   font-size: 32px;
   text-align: center;
   font-weight: 700;
+  color: gold;
+  text-transform: uppercase;
 }
 
 .faq-subtitle {
@@ -491,6 +493,7 @@ header .contato-btn:hover {
   margin-bottom: 15px;
   text-transform: uppercase;
   font-weight: 700;
+  color: gold;
 }
 
 .cta-final p {
@@ -710,4 +713,7 @@ header .contato-btn:hover {
 .whatsapp-float:hover {
   transform: scale(1.1);
   animation: none;
+}
+.cds {
+  color: blueviolet;
 }
