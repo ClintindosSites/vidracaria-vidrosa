@@ -111,16 +111,17 @@ header .contato-btn:hover {
 /* OVERLAY MOBILE */
 .mobile-menu {
   position: fixed;
-  top: 0;
+  top: 20px;
   right: 0;
   width: 50%;
-  height: 80vh;
-  background: #06121e;
+  height: 100vh;
+  background: rgba(6, 18, 30, 0.9);
+  backdrop-filter: blur(10px);
   display: flex;
   flex-direction: column;
   align-items: right;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   padding-left: 30px;
   transform: translateY(-100%);
   transition: 0.4s;
@@ -133,17 +134,6 @@ header .contato-btn:hover {
 .mobile-menu a {
   color: white;
   font-size: 20px;
-}
-
-/* RESPONSIVO */
-@media (max-width: 1020px) {
-  .menu {
-    display: none;
-  }
-
-  .hamburger {
-    display: flex;
-  }
 }
 
 /*HERO DA PAGINA*/
@@ -240,21 +230,6 @@ header .contato-btn:hover {
   text-align: left;
 }
 
-/* RESPONSIVO */
-@media (max-width: 768px) {
-  .hero {
-    height: auto;
-    padding: 120px 20px 60px;
-  }
-
-  .hero-content h1 {
-    font-size: 2rem;
-  }
-  .container {
-    padding: 20px;
-  }
-}
-
 /*SERVIÇOS*/
 .servicos .container {
   gap: 1rem;
@@ -289,6 +264,7 @@ header .contato-btn:hover {
 .servicos-card h3 {
   font-size: 2.2rem;
   font-weight: 700;
+  color: gold;
 }
 .servicos-card p {
   color: 1.5rem;
@@ -397,17 +373,6 @@ header .contato-btn:hover {
   border: 5px solid #06121e;
 }
 
-/* RESPONSIVO */
-@media (max-width: 900px) {
-  .sobre-container {
-    grid-template-columns: 1fr;
-  }
-
-  .sobre-images {
-    height: 400px;
-    margin-top: 30px;
-  }
-}
 /* faq */
 .faq {
   padding: 80px 20px;
@@ -549,16 +514,6 @@ header .contato-btn:hover {
   opacity: 0.9;
 }
 
-/* RESPONSIVO */
-@media (max-width: 768px) {
-  .cta-buttons {
-    flex-direction: column;
-  }
-
-  .cta-benefits {
-    flex-direction: column;
-  }
-}
 /*footer*/
 .footer {
   background: #06121e;
@@ -576,7 +531,7 @@ header .contato-btn:hover {
 
 .footer-col h4 {
   margin-bottom: 15px;
-  color: white;
+  color: gold;
 }
 
 .footer-col p {
@@ -700,7 +655,7 @@ header .contato-btn:hover {
   align-items: center;
   justify-content: center;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-  z-index: 999;
+  z-index: 900;
   transition: 0.3s;
 }
 
@@ -716,4 +671,136 @@ header .contato-btn:hover {
 }
 .cds {
   color: blueviolet;
+}
+
+/* RESPONSIVO */
+@media (max-width: 1020px) {
+  .menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 120px 20px 60px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  .container {
+    padding: 20px;
+  }
+  .service-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .cta-benefits {
+    flex-direction: column;
+  }
+  .servicos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .servicos-card h3 {
+    font-size: 1.8rem;
+    line-height: 1;
+  }
+  .servico-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .footer-bottom {
+    align-items: center;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-cols {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .footer-text {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .cds {
+    font-size: 1.2rem;
+  }
+  .cds a {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 900px) {
+  .sobre-container {
+    grid-template-columns: 1fr;
+  }
+
+  .sobre-images {
+    height: 400px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero-content {
+    top: 50px;
+  }
+  .servicos-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .footer-bottom {
+    align-items: center;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-cols {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .footer-text {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .cds {
+    font-size: 1.2rem;
+  }
+  .cds a {
+    font-size: 1rem;
+  }
 }

@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import "./globals.css";
-import { Oswald } from "next/font/google";
+import { Oswald, Poppins } from "next/font/google";
 
 import Script from "next/script";
 import Header from "./components/Header";
@@ -9,6 +9,10 @@ import WhatsappFloat from "./components/WhatsappFloat";
 
 // 🔤 FONTE
 const oswald = Oswald({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+});
+const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
 });

@@ -26,14 +26,14 @@ export default function Servicos() {
     {
       name: "Janelas Blindex",
       description:
-        "Janelas de vidro blindex com excelente vedação, segurança e design moderno para conforto e valorização.",
+        "Janelas de vidro temperado com excelente vedação, segurança e design moderno para conforto e valorização.",
       image: "/images/janelas/janela-10.webp",
       link: "/servicos/janelas-blindex",
     },
     {
       name: "Portas Blindex",
       description:
-        "Portas de vidro blindex elegantes e resistentes, perfeitas para ambientes modernos com segurança e estilo.",
+        "Portas de vidro temperado elegantes e resistentes, perfeitas para ambientes modernos com segurança e estilo.",
       image: "/images/portas/porta-1.webp",
       link: "/servicos/portas-blindex",
     },
