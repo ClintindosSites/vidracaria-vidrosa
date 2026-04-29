@@ -635,24 +635,6 @@ header .contato-btn:hover {
   color: #00d4ff;
 }
 
-/* RESPONSIVO */
-@media (max-width: 900px) {
-  .footer-container {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 600px) {
-  .footer-container {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-bottom {
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-  }
-}
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
@@ -693,6 +675,24 @@ header .contato-btn:hover {
     display: flex;
   }
 }
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
 @media (max-width: 768px) {
   .hero {
     height: auto;
@@ -709,6 +709,9 @@ header .contato-btn:hover {
     display: flex;
     flex-wrap: wrap;
   }
+  .servicos-buttons {
+    padding: 10px;
+  }
   .cta-buttons {
     flex-direction: column;
   }
@@ -719,8 +722,12 @@ header .contato-btn:hover {
   .servicos-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
   }
-
+  .servico-text {
+    padding: 10px;
+    text-align: center;
+  }
   .servicos-card h3 {
     font-size: 1.8rem;
     line-height: 1;
