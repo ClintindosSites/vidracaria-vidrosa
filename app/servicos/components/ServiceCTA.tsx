@@ -3,9 +3,16 @@
 interface ServiceCTAProps {
   title: string;
   image: string;
+  ctaTitle: string;
+  ctaDescription: string;
 }
 
-export default function ServiceCTA({ title, image }: ServiceCTAProps) {
+export default function ServiceCTA({
+  title,
+  image,
+  ctaTitle,
+  ctaDescription,
+}: ServiceCTAProps) {
   const whatsappMessage = `Olá, vim pelo site e gostaria de um orçamento para ${title}.`;
 
   return (
@@ -20,11 +27,8 @@ export default function ServiceCTA({ title, image }: ServiceCTAProps) {
     >
       <div className="cta-overlay">
         <div className="cta-content">
-          <h2>Solicite um orçamento de {title}</h2>
-          <p>
-            Atendimento rápido, instalação profissional e acabamento de alto
-            padrão.
-          </p>
+          <h2>{ctaTitle}</h2>
+          <p>{ctaDescription}</p>
 
           <a
             href={`https://wa.me/5531992799772?text=${encodeURIComponent(
@@ -34,7 +38,7 @@ export default function ServiceCTA({ title, image }: ServiceCTAProps) {
             rel="noopener noreferrer"
             className="cta-button"
           >
-            Falar com Especialista
+            Solicite agora seu orçamento pelo whatsapp
           </a>
         </div>
       </div>

@@ -63,7 +63,7 @@ export default function Servicos() {
       description:
         "Teto pergolado de vidro temperado com pelicula de segurança PS-04. Teto bonito, resistente e com segurança",
       image: "/images/guarda-corpo/pergolado.webp",
-      link: "/servicos/porta-slidedoor",
+      link: "/servicos/pergolado",
     },
   ];
   return (

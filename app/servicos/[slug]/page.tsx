@@ -21,6 +21,13 @@ export default async function ServicePage({
       <ServiceCTA
         title={service.title}
         image={service.ctaImage || service.heroImage}
+        ctaTitle={
+          service.ctaTitle || `Solicite um orçamento para ${service.title}`
+        }
+        ctaDescription={
+          service.ctaDescription ||
+          "Fale agora com um especialista e receba seu orçamento personalizado."
+        }
       />
     </>
   );

@@ -6,12 +6,13 @@ export default function ServiceHero({ service }: any) {
       className="hero"
       style={{
         background: `url(${service.heroImage}) center/cover no-repeat`,
+        backgroundAttachment: "fixed",
       }}
     >
       <div className="overlay" />
 
       <div className="hero-content">
-        <h1>{service.title}</h1>
+        <h1>{service.subtitle}</h1>
         <p>{service.description}</p>
 
         <Link
