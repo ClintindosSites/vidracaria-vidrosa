@@ -16,6 +16,9 @@ export const services = [
       "/images/box/box-1.webp",
       "/images/box/box-2.webp",
       "/images/box/box-3.webp",
+      "/images/box/box-4.webp",
+      "/images/box/box-5.webp",
+      "/images/box/box-6.webp",
     ],
 
     longDescription:
@@ -39,6 +42,37 @@ export const services = [
         text: "Meu banheiro ficou outro nível depois da instalação. O box trouxe elegância e sensação de amplitude. Atendimento ágil e muito profissional.",
       },
     ],
+    benefits: {
+      title: "Qual o melhor tipo de box para o seu banheiro?",
+      subtitle:
+        "Entenda as opções disponíveis e escolha o modelo ideal com o melhor custo-benefício para o seu espaço.",
+
+      items: [
+        {
+          title: "Box Convencional",
+          description:
+            "Modelo mais utilizado, ideal para quem busca praticidade e um ótimo custo-benefício. Fácil de instalar e combina com qualquer ambiente.",
+        },
+        {
+          title: "Box de Canto",
+          description:
+            "Perfeito para otimizar espaços pequenos, aproveitando melhor o ambiente sem abrir mão da funcionalidade e estética.",
+        },
+        {
+          title: "Box até o Teto",
+          description:
+            "Mais moderno e sofisticado, evita saída de vapor e mantém o banheiro sempre mais limpo e elegante.",
+        },
+        {
+          title: "Vidro Incolor, Verde ou Fumê",
+          description:
+            "O vidro incolor traz leveza e amplitude, o verde é mais tradicional e o fumê oferece sofisticação e maior privacidade.",
+        },
+      ],
+
+      highlight:
+        "Um box de vidro bem instalado valoriza seu imóvel, melhora a organização do banheiro e traz mais conforto no dia a dia. Além disso, é um investimento acessível com excelente durabilidade.",
+    },
   },
 
   {

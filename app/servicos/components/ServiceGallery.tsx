@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import Link from "next/link";
 
 export default function ServiceGallery({ images, title }: any) {
   return (
@@ -28,13 +29,16 @@ export default function ServiceGallery({ images, title }: any) {
                 src={img}
                 alt={title}
                 fill
-                sizes="(max-width: 768px) 100vw, 33vw"
+                sizes="(max-width: 768px) 100vw, 50vw"
                 style={{ objectFit: "cover" }}
               />
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
+      <Link className="cta-button cta-auto" href={"https://wa.me/"}>
+        Solicitar Orçamento pelo WhatsApp
+      </Link>
     </div>
   );
 }

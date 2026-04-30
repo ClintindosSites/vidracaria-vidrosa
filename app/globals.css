@@ -200,7 +200,9 @@ header .contato-btn:hover {
 
   background: linear-gradient(to right, #fff, rgb(32, 153, 187));
 }
-
+.cta-button.cta-auto {
+  margin: 20px auto;
+}
 .cta-button {
   padding: 14px 24px;
   border-radius: 30px;
@@ -670,6 +672,9 @@ header .contato-btn:hover {
   width: 100%;
 }
 
+.gallery-wrapper .cta-button {
+  margin: 20px auto;
+}
 .slide {
   position: relative;
   width: 100%;
@@ -677,7 +682,7 @@ header .contato-btn:hover {
   border-radius: 16px;
   overflow: hidden;
   transition: 0.4s;
-  transform: scale(0.85);
+  transform: scale(0.8);
   opacity: 0.6;
 }
 
@@ -751,29 +756,38 @@ header .contato-btn:hover {
 }
 .details-text h2 {
   color: gold;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 .reviews {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   gap: 20px;
-  justify-content: center;
   margin-top: 40px;
+
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.review-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+}
+.review-title span {
+  color: gold;
+  font-size: 2.5rem;
 }
 
 .review {
   background: #0b1c2c;
   padding: 25px;
   border-radius: 12px;
-  width: 480px;
   min-height: 200px;
   transition: 0.3s ease;
 }
-
 .review:hover {
   transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .review-header {
@@ -805,6 +819,89 @@ header .contato-btn:hover {
   opacity: 0.9;
   line-height: 1.5;
 }
+.benefits-title h2 {
+  font-size: 2rem;
+  color: gold;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.benefits-title {
+  text-align: center;
+}
+.service-benefits {
+  padding: 0;
+  background: transparent;
+  text-align: left;
+}
+
+.service-benefits .subtitle {
+  margin: 10px auto 40px;
+  opacity: 0.8;
+}
+
+.benefits-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-content: center;
+}
+
+.benefit-card {
+  background: #0b1c2c;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: left;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+}
+.benefit-card h3 {
+  color: gold;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.benefits-highlight {
+  margin-top: 40px;
+  background: #0f2a44;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.details-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  max-width: 1200px;
+}
+
+@media (min-width: 1024px) {
+}
+.details-text {
+  max-width: 768px;
+}
+
+.details-gallery {
+  max-width: 600px;
+  width: 100%;
+  height: 520px; /* 👈 ESSENCIAL */
+  position: relative;
+}
+.gallery-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper {
+  height: 100%;
+}
+
 /* RESPONSIVO */
 @media (max-width: 1020px) {
   .menu {
@@ -879,6 +976,15 @@ header .contato-btn:hover {
   .cta-benefits {
     flex-direction: column;
   }
+  .benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .service-benefits {
+    padding: 0;
+  }
+  .details-grid {
+    padding: 0;
+  }
   .servicos-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -945,6 +1051,18 @@ header .contato-btn:hover {
 @media screen and (max-width: 400px) {
   .hero-content {
     top: 50px;
+  }
+  .benefits-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-benefits {
+    padding: 0;
+  }
+  .details-grid {
+    padding: 0;
   }
   .servicos-grid {
     display: flex;
