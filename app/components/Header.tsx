@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <header className="header" id="header">
       <div className="header-container">
-        <Link href="#" className="logo">
+        <Link href="/#" className="logo">
           <Image
             src="/logo.webp"
             alt="Logomarca da Vidraçaria Vidrosa, Comércio de Vidros e esquadiras de alumínio em Belo Horizonte"

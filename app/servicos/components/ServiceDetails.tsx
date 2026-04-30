@@ -1,18 +1,28 @@
 import ServiceGallery from "./ServiceGallery";
-export default function ServiceDetails({ service }: any) {
+
+interface Review {
+  name: string;
+  text: string;
+}
+
+interface Service {
+  title: string;
+  longDescription: string;
+  gallery: string[];
+  reviews: Review[];
+}
+
+export default function ServiceDetails({ service }: { service: Service }) {
   return (
     <section className="service-details">
       <div className="container">
         <div className="details-text">
-          {" "}
           <h2>Sobre o {service.title}</h2>
           <p>{service.longDescription}</p>
         </div>
 
-        {/* GALERIA */}
         <ServiceGallery images={service.gallery} title={service.title} />
 
-        {/* AVALIAÇÕES */}
         <div className="reviews">
           {service.reviews.map((review, index) => {
             const initials = review.name
