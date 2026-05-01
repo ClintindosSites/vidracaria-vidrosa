@@ -58,7 +58,6 @@ const images = [
   "/images/guarda-corpo/guarda-corpo-17.webp",
   "/images/guarda-corpo/guarda-corpo-18.webp",
   "/images/portas/porta-area-gourmet.webp",
-  "/images/variados/blindex-chalé.webp",
   "/images/portas/porta-2.webp",
   "/images/portas/porta-3.webp",
   "/images/portas/porta-5.webp",

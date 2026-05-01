@@ -32,6 +32,8 @@ export default function Header() {
           <Link href={"/servicos/janelas-blindex"}>Janelas</Link>
           <Link href={"/servicos/portas-blindex"}>Portas</Link>
           <Link href={"/servicos/espelho"}>Espelho</Link>
+          <Link href={"/servicos/porta-slidedoor"}>Porta de Correr</Link>
+          <Link href={"/servicos/pergolado"}>Pergolado</Link>
           <Link href={"/solicite-orcamento"} className="contato-btn">
             Pedir Orçamento
           </Link>
@@ -47,7 +49,7 @@ export default function Header() {
       {/* MENU MOBILE OVERLAY */}
       <div className={`mobile-menu ${open ? "active" : ""}`}>
         <Link href="/" onClick={() => setOpen(false)}>
-          Início
+          Página Inicial
         </Link>
         <Link href="/#servicos" onClick={() => setOpen(false)}>
           Serviços
@@ -79,6 +81,12 @@ export default function Header() {
         </Link>
         <Link href="/servicos/espelho" onClick={() => setOpen(false)}>
           Espelho
+        </Link>
+        <Link href={"/servicos/porta-slidedoor"} onClick={() => setOpen(false)}>
+          Porta de Correr
+        </Link>
+        <Link href={"/servicos/pergolado"} onClick={() => setOpen(false)}>
+          Pergolado
         </Link>
         <Link
           href="/solicite-orcamento"
