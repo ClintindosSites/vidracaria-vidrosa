@@ -7,10 +7,10 @@ import Link from "next/link";
 const images = [
   "/images/box/box-1.webp",
   "/images/box/box-2.webp",
-  "/images/guarda-corpo/guarda-1.webp",
-  "/images/esquadria-1.webp",
-  "/images/espelho/espelho-1.webp",
-  "/images/pergolado/pergolado-1.webp",
+  "/images/guarda-corpo/guarda-corpo-1.webp",
+  "/images/esquadrias/esquadria-1.webp",
+  "/images/espelho.webp",
+  "/images/pergolado-1.webp",
 ];
 
 const reviews = [

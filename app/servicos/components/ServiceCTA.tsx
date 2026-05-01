@@ -5,6 +5,7 @@ interface ServiceCTAProps {
   image: string;
   ctaTitle: string;
   ctaDescription: string;
+  video?: string; // 👈 NOVO (opcional)
 }
 
 export default function ServiceCTA({
@@ -12,19 +13,27 @@ export default function ServiceCTA({
   image,
   ctaTitle,
   ctaDescription,
+  video,
 }: ServiceCTAProps) {
   const whatsappMessage = `Olá, vim pelo site e gostaria de um orçamento para ${title}.`;
 
   return (
-    <section
-      className="service-cta"
-      style={{
-        backgroundImage: `url(${image})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
+    <section className="service-cta">
+      {/* 🔥 BACKGROUND DINÂMICO */}
+      {video ? (
+        <video className="cta-bg" autoPlay loop muted playsInline>
+          <source src={video} type="video/mp4" />
+        </video>
+      ) : (
+        <div
+          className="cta-bg"
+          style={{
+            backgroundImage: `url(${image})`,
+          }}
+        />
+      )}
+
+      {/* 🔥 OVERLAY */}
       <div className="cta-overlay">
         <div className="cta-content">
           <h2>{ctaTitle}</h2>

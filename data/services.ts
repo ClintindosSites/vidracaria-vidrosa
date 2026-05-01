@@ -2,6 +2,17 @@ export const services = [
   {
     slug: "box-de-banheiro",
     title: "Box de banheiro",
+    metaDescription:
+      "Box de banheiro em vidro temperado sob medida em Belo Horizonte com instalação profissional e excelente vedação. Orçamento rápido e acabamento premium.",
+
+    keywords: [
+      "box de banheiro",
+      "box de vidro temperado",
+      "box blindex",
+      "box até o teto",
+      "preço de box de banheiro em BH",
+      "vidraçaria Belo Horizonte",
+    ],
     subtitle: "Renove Seu Banheiro com um Box Moderno e Seguro",
     ctaTitle: "Deixe seu banheiro moderno, seguro e elegante.",
     ctaDescription:
@@ -78,6 +89,19 @@ export const services = [
   {
     slug: "esquadrias-de-aluminio",
     title: "Esquadrias de Alumínio",
+
+    metaDescription:
+      "Esquadrias de alumínio sob medida em Belo Horizonte com alta durabilidade, vedação eficiente e acabamento moderno. Ideal para obras residenciais e comerciais.",
+
+    keywords: [
+      "esquadrias de aluminio",
+      "janela de aluminio",
+      "porta de aluminio",
+      "esquadrias em bh",
+      "esquadrias de alumínio perto de mim",
+      "orçamento esquadrias de alumínio",
+    ],
+
     subtitle: "Transforme Seu Imóvel com Esquadrias de Alumínio de Alto Padrão",
 
     ctaTitle: "Seu imóvel merece esquadrias à altura do seu padrão.",
@@ -169,6 +193,18 @@ export const services = [
   {
     slug: "fachada-de-vidro",
     title: "Fachada de Vidro",
+
+    metaDescription:
+      "Fachada de vidro em Belo Horizonte com projeto moderno, alto padrão e instalação profissional. Ideal para comércios e residências sofisticadas. Solicite orçamento.",
+
+    keywords: [
+      "fachada de vidro",
+      "fachada comercial de vidro",
+      "fachada moderna em BH",
+      "vidro temperado fachada",
+      "vidraçaria Belo Horizonte",
+    ],
+
     subtitle: "Destaque Seu Imóvel com Sofisticação e Impacto Visual Moderno",
 
     ctaTitle: "Transforme sua fachada e valorize seu imóvel.",
@@ -247,6 +283,18 @@ export const services = [
   {
     slug: "janelas-blindex",
     title: "Janelas Blindex",
+
+    metaDescription:
+      "Janelas de vidro e alumínio sob medida em Belo Horizonte com alta vedação, durabilidade e acabamento premium. Ideal para residências e comércios. Peça seu orçamento.",
+
+    keywords: [
+      "janela de vidro",
+      "janela de aluminio",
+      "janela sob medida",
+      "janela em BH",
+      "vidraçaria Belo Horizonte",
+    ],
+
     subtitle: "Mais Iluminação, Segurança e Modernidade para Seu Ambiente",
 
     ctaTitle: "Instale janelas modernas e valorize seu imóvel.",
@@ -339,6 +387,18 @@ export const services = [
   {
     slug: "portas-blindex",
     title: "Portas Blindex",
+
+    metaDescription:
+      "Portas de vidro temperado e alumínio sob medida em Belo Horizonte. Segurança, elegância e instalação profissional. Solicite seu orçamento agora.",
+
+    keywords: [
+      "porta de vidro",
+      "porta de aluminio",
+      "porta temperada",
+      "porta sob medida",
+      "vidraçaria em BH",
+    ],
+
     subtitle: "Elegância, Segurança e Sofisticação para Seu Ambiente",
 
     ctaTitle: "Transforme a entrada do seu imóvel com portas modernas.",
@@ -427,6 +487,18 @@ export const services = [
   {
     slug: "espelho",
     title: "Espelhos Sob Medida",
+
+    metaDescription:
+      "Espelhos sob medida em Belo Horizonte com instalação profissional, acabamento impecável e vidro de alta qualidade. Ideal para salas, quartos e banheiros. Solicite orçamento.",
+
+    keywords: [
+      "espelho sob medida",
+      "espelho para banheiro",
+      "espelho decorativo",
+      "espelho em BH",
+      "vidraçaria em Belo Horizonte",
+    ],
+
     subtitle: "Mais Amplitude, Elegância e Sofisticação para Seu Ambiente",
 
     ctaTitle: "Transforme seu espaço com espelhos sob medida.",
@@ -499,6 +571,18 @@ export const services = [
   {
     slug: "guarda-corpo",
     title: "Guarda Corpo de Vidro",
+
+    metaDescription:
+      "Guarda-corpo de vidro temperado em Belo Horizonte com alta resistência e design moderno. Ideal para escadas, varandas e sacadas. Orçamento rápido e instalação profissional.",
+
+    keywords: [
+      "guarda corpo de vidro",
+      "guarda corpo em BH",
+      "corrimão de vidro",
+      "vidro temperado para escada",
+      "vidraçaria Belo Horizonte",
+    ],
+
     subtitle: "Segurança, Sofisticação e Visão Ampliada para Seu Espaço",
 
     ctaTitle: "Proteja e valorize seu imóvel com guarda corpo de vidro.",
@@ -591,6 +675,18 @@ export const services = [
   {
     slug: "pergolado",
     title: "Teto Pergolado de Vidro",
+
+    metaDescription:
+      "Pergolado de vidro sob medida em Belo Horizonte com estrutura resistente e acabamento sofisticado. Ideal para áreas externas e espaços gourmet. Solicite seu orçamento.",
+
+    keywords: [
+      "pergolado de vidro",
+      "cobertura de vidro",
+      "pergolado em BH",
+      "estrutura de vidro",
+      "vidraçaria Belo Horizonte",
+    ],
+
     subtitle: "Proteção Contra Sol e Chuva com Sofisticação e Luz Natural",
 
     ctaTitle: "Transforme sua área externa em um espaço confortável.",
@@ -662,6 +758,18 @@ export const services = [
   {
     slug: "porta-slidedoor",
     title: "Porta Slide Door de Vidro",
+
+    metaDescription:
+      "Porta Slide Door de vidro em Belo Horizonte com design moderno, leveza e excelente aproveitamento de espaço. Projeto sob medida com instalação especializada.",
+
+    keywords: [
+      "porta slide door",
+      "porta deslizante de vidro",
+      "porta de correr vidro",
+      "slide door em BH",
+      "vidraçaria Belo Horizonte",
+    ],
+
     subtitle: "Integração de Ambientes com Elegância e Funcionalidade",
 
     ctaTitle: "Integre seus ambientes com portas modernas e sofisticadas.",
@@ -670,10 +778,10 @@ export const services = [
 
     description:
       "Portas de correr em vidro temperado sob medida, ideais para integração de ambientes com elegância, praticidade e excelente aproveitamento de espaço.",
-
+    heroVideo: "/videos/slide-door.mp4", // 👈 AQUI
     heroImage: "/slide-door-bg.webp",
     ctaImage: "/slide-door-bg.webp",
-
+    ctaVideo: "/videos/slide-door.mp4",
     gallery: [
       "/images/portas/porta-2.webp",
       "/images/portas/porta-3.webp",

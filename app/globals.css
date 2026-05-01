@@ -710,13 +710,25 @@ header .contato-btn:hover {
 }
 .service-cta {
   position: relative;
-  min-height: 420px; /* altura real de seção */
+  min-height: 420px;
   padding: 100px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: white;
+  overflow: hidden;
+}
+
+/* 🔥 funciona para imagem e vídeo */
+.cta-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
 }
 
 .service-cta::before {
@@ -726,11 +738,13 @@ header .contato-btn:hover {
   background: rgba(0, 0, 0, 0.65); /* sombra escura */
   z-index: 1;
 }
-
+/* overlay */
 .cta-overlay {
   position: relative;
   z-index: 2;
-  max-width: 800px;
+  background: rgba(0, 0, 0, 0.65);
+  padding: 40px 20px;
+  border-radius: 10px;
 }
 
 .cta-content {
