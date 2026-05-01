@@ -6,20 +6,8 @@ import Reviews from "../components/Reviews";
 import type { Metadata } from "next";
 
 type Props = {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 };
-export async function generateStaticParams() {
-  return [
-    { slug: "box-de-banheiro" },
-    { slug: "esquadrias-de-aluminio" },
-    { slug: "fachada-de-vidro" },
-    { slug: "janelas-blindex" },
-    { slug: "portas-blindex" },
-    { slug: "espelho-sob-medida" },
-    { slug: "guarda-corpo" },
-    { slug: "porta-slidedoor" },
-  ];
-}
 
 /* =========================
    METADATA DINÂMICA SEO
@@ -77,8 +65,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 /* =========================
    PAGE
 ========================= */
-export default function ServicePage({ params }: Props) {
-  const { slug } = params;
+export default async function ServicePage({ params }: Props) {
+  const { slug } = await params;
 
   const service = services.find(s => s.slug === slug);
 
