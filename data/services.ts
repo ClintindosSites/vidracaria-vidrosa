@@ -501,7 +501,7 @@ export const services = [
   },
 
   {
-    slug: "espelho",
+    slug: "espelho-sob-medida",
     title: "Espelhos Sob Medida",
 
     metaDescription:

@@ -9,6 +9,19 @@ type Props = {
   params: Promise<{ slug: string }>;
 };
 
+export async function generateStaticParams() {
+  return [
+    { slug: "box-de-banheiro" },
+    { slug: "esquadrias-de-aluminio" },
+    { slug: "fachada-de-vidro" },
+    { slug: "janelas-blindex" },
+    { slug: "portas-blindex" },
+    { slug: "espelho-sob-medida" },
+    { slug: "guarda-corpo" },
+    { slug: "porta-slidedoor" },
+  ];
+}
+
 /* =========================
    METADATA DINÂMICA SEO
 ========================= */
