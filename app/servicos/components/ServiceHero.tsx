@@ -29,10 +29,11 @@ export default function ServiceHero({ service }: any) {
         <p>{service.description}</p>
 
         <Link
-          href={`https://wa.me/5531992799772?text=Quero orçamento de ${service.title}`}
+          href={`https://wa.me/5531992799772?text=Olá, vim pelo site e gostaria de realizar um orçamento de ${service.title}`}
           className="cta-button"
+          target="_blank"
         >
-          Solicitar Orçamento
+          Solicitar Orçamento no WhatsApp
         </Link>
       </div>
     </section>

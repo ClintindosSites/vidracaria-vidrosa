@@ -6,7 +6,7 @@ import { trackWhatsAppClick } from "../lib/analytics";
 export default function WhatsappFloat() {
   return (
     <Link
-      href="https://wa.me/5531992799772"
+      href="https://wa.me/5531992799772?text=Ol%C3%A1!%20Quero%20solicitar%20um%20or%C3%A7amento%20para%20meu%20projeto.%20Pode%20me%20atender%20agora%3F"
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-float"

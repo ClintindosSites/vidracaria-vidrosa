@@ -1,11 +1,33 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setOpen(false);
+      }
+    }
+    function handleEsc(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        setOpen(false);
+      }
+    }
+    if (open) {
+      document.addEventListener("mousedown", handleClickOutside);
+      document.addEventListener("keydown", handleEsc);
+    }
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("keydown", handleEsc);
+    };
+  }, [open]);
 
   return (
     <header className="header" id="header">
@@ -40,7 +62,7 @@ export default function Header() {
         </nav>
 
         {/* HAMBURGER */}
-        <div className="hamburger" onClick={() => setOpen(!open)}>
+        <div ref={menuRef} className="hamburger" onClick={() => setOpen(!open)}>
           <span></span>
           <span></span>
           <span></span>

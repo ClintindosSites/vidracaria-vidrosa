@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-export default function HeroSlideDoor() {
+export default function HeroSlideDoor({ service }: any) {
   return (
     <section className="hero-video">
       {/* 🎥 VÍDEO BACKGROUND */}
@@ -22,11 +22,11 @@ export default function HeroSlideDoor() {
         </p>
 
         <Link
-          href="https://wa.me/5531992799772"
-          target="_blank"
+          href={`https://wa.me/5531992799772?text=Olá, vim pelo site e gostaria de realizar um orçamento de ${service.title}`}
           className="cta-button"
+          target="_blank"
         >
-          Solicitar Orçamento
+          Solicitar Orçamento no WhatsApp
         </Link>
       </div>
     </section>

@@ -84,7 +84,7 @@ export const services = [
       ],
 
       highlight:
-        "Um box de vidro bem instalado valoriza seu imóvel, melhora a organização do banheiro e traz mais conforto no dia a dia. Além disso, é um investimento acessível com excelente durabilidade.",
+        "Um box de vidro bem instalado valoriza seu imóvel, melhora a organização do banheiro e traz mais conforto no dia a dia. Recomendamos a utilização de película de segurança PS-04 para uma melhor segurança em caso de um possível acidente (O vidro quebra mas não cai por causa da película de segurança).",
     },
   },
 

@@ -135,7 +135,7 @@ export default function GaleriaPage() {
           <h2>Gostou dos nossos projetos?</h2>
           <p>Solicite agora seu orçamento e transforme seu ambiente.</p>
           <Link
-            href="https://wa.me/5531992799772"
+            href="https://wa.me/5531992799772?text=Ol%C3%A1!%20Quero%20solicitar%20um%20or%C3%A7amento%20para%20meu%20projeto.%20Pode%20me%20atender%20agora%3F"
             target="_blank"
             className="cta-button"
           >
