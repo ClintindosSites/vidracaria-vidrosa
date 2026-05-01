@@ -91,11 +91,24 @@ export const services = [
     ctaImage: "/janela-bg.webp",
 
     gallery: [
-      "/images/esquadria-1.webp",
-      "/images/esquadria-2.webp",
-      "/images/esquadria-3.webp",
-      "/images/esquadria-4.webp",
-      "/images/esquadria-5.webp",
+      "/images/esquadrias/esquadria-1.webp",
+      "/images/esquadrias/esquadria-2.webp",
+      "/images/esquadrias/esquadria-3.webp",
+      "/images/esquadrias/esquadria-4.webp",
+      "/images/esquadrias/esquadria-5.webp",
+      "/images/esquadrias/janela-esquadria-1.webp",
+      "/images/esquadrias/janela-esquadria-2.webp",
+      "/images/esquadrias/janela-esquadria-3.webp",
+      "/images/esquadrias/janela-esquadria-4.webp",
+      "/images/esquadrias/janela-esquadria-5.webp",
+      "/images/esquadrias/janela-esquadria-6.webp",
+      "/images/esquadrias/janela-esquadria-7.webp",
+      "/images/esquadrias/janela-esquadria-8.webp",
+      "/images/esquadrias/porta-esquadria-1.webp",
+      "/images/esquadrias/porta-esquadria-2.webp",
+      "/images/esquadrias/porta-esquadria-3.webp",
+      "/images/esquadrias/porta-esquadria-4.webp",
+      "/images/esquadrias/porta-esquadria-5.webp",
     ],
 
     longDescription:
@@ -243,15 +256,29 @@ export const services = [
     description:
       "Janelas de vidro temperado sob medida com alta resistência, design moderno e excelente vedação para residências e comércios.",
 
-    heroImage: "/janela-bg.webp",
-    ctaImage: "/janela-bg.webp",
+    heroImage: "/images/janelas/casa-de-madeira.webp",
+    ctaImage: "/images/janelas/casa-de-madeira.webp",
 
     gallery: [
+      "/images/janelas/casa-de-madeira.webp",
       "/images/janelas/janela-1.webp",
       "/images/janelas/janela-2.webp",
       "/images/janelas/janela-3.webp",
       "/images/janelas/janela-4.webp",
       "/images/janelas/janela-5.webp",
+      "/images/janelas/janela-6.webp",
+      "/images/janelas/janela-7.webp",
+      "/images/janelas/janela-8.webp",
+      "/images/janelas/janela-9.webp",
+      "/images/janelas/janela-10.webp",
+      "/images/janelas/janela-11.webp",
+      "/images/janelas/janela-12.webp",
+      "/images/janelas/janela-13.webp",
+      "/images/janelas/janela-14.webp",
+      "/images/janelas/janela-15.webp",
+      "/images/janelas/janela-16.webp",
+      "/images/janelas/janela-17.webp",
+      "/images/janelas/janela-18.webp",
     ],
 
     longDescription:
@@ -321,8 +348,8 @@ export const services = [
     description:
       "Portas de vidro temperado sob medida com alta resistência, design moderno e acabamento premium para residências e comércios.",
 
-    heroImage: "/porta-bg.webp",
-    ctaImage: "/porta-bg.webp",
+    heroImage: "/images/portas/porta-1.webp",
+    ctaImage: "/images/portas/porta-1.webp",
 
     gallery: [
       "/images/portas/porta-1.webp",
@@ -330,6 +357,16 @@ export const services = [
       "/images/portas/porta-3.webp",
       "/images/portas/porta-4.webp",
       "/images/portas/porta-5.webp",
+      "/images/portas/porta-6.webp",
+      "/images/portas/porta-7.webp",
+      "/images/portas/porta-8.webp",
+      "/images/portas/porta-9.webp",
+      "/images/portas/porta-10.webp",
+      "/images/portas/porta-11.webp",
+      "/images/portas/porta-12.webp",
+      "/images/portas/porta-13.webp",
+      "/images/portas/porta-14.webp",
+      "/images/portas/porta-de-correr.webp",
     ],
 
     longDescription:
@@ -399,16 +436,10 @@ export const services = [
     description:
       "Espelhos sob medida para residências e comércios, com acabamento refinado, instalação segura e efeito visual que amplia e valoriza o ambiente.",
 
-    heroImage: "/espelho-bg.webp",
-    ctaImage: "/espelho-bg.webp",
+    heroImage: "/images/espelho.webp",
+    ctaImage: "/images/espelho.webp",
 
-    gallery: [
-      "/images/espelho/espelho-1.webp",
-      "/images/espelho/espelho-2.webp",
-      "/images/espelho/espelho-3.webp",
-      "/images/espelho/espelho-4.webp",
-      "/images/espelho/espelho-5.webp",
-    ],
+    gallery: ["/images/espelho.webp"],
 
     longDescription:
       "Os espelhos sob medida são ideais para quem deseja ampliar ambientes, melhorar a iluminação e trazer sofisticação à decoração. Trabalhamos com projetos personalizados para salas, quartos, banheiros, academias e comércios, sempre com acabamento de alto padrão e instalação segura.",
@@ -477,15 +508,30 @@ export const services = [
     description:
       "Guarda corpo de vidro sob medida com alta resistência, design moderno e máxima segurança para escadas, sacadas e varandas.",
 
-    heroImage: "/guarda-bg.webp",
-    ctaImage: "/guarda-bg.webp",
+    heroImage: "/images/guarda-corpo/guarda-corpo-tangara.webp",
+    ctaImage: "/images/guarda-corpo/guarda-corpo-tangara.webp",
 
     gallery: [
-      "/images/guarda-corpo/guarda-1.webp",
-      "/images/guarda-corpo/guarda-2.webp",
-      "/images/guarda-corpo/guarda-3.webp",
-      "/images/guarda-corpo/guarda-4.webp",
-      "/images/guarda-corpo/guarda-5.webp",
+      "/images/guarda-corpo/guarda-corpo-tangara.webp",
+      "/images/guarda-corpo/mansaovidro.webp",
+      "/images/guarda-corpo/guarda-corpo-1.webp",
+      "/images/guarda-corpo/guarda-corpo-2.webp",
+      "/images/guarda-corpo/guarda-corpo-3.webp",
+      "/images/guarda-corpo/guarda-corpo-4.webp",
+      "/images/guarda-corpo/guarda-corpo-5.webp",
+      "/images/guarda-corpo/guarda-corpo-6.webp",
+      "/images/guarda-corpo/guarda-corpo-7.webp",
+      "/images/guarda-corpo/guarda-corpo-8.webp",
+      "/images/guarda-corpo/guarda-corpo-9.webp",
+      "/images/guarda-corpo/guarda-corpo-10.webp",
+      "/images/guarda-corpo/guarda-corpo-11.webp",
+      "/images/guarda-corpo/guarda-corpo-12.webp",
+      "/images/guarda-corpo/guarda-corpo-13.webp",
+      "/images/guarda-corpo/guarda-corpo-14.webp",
+      "/images/guarda-corpo/guarda-corpo-15.webp",
+      "/images/guarda-corpo/guarda-corpo-16.webp",
+      "/images/guarda-corpo/guarda-corpo-17.webp",
+      "/images/guarda-corpo/guarda-corpo-18.webp",
     ],
 
     longDescription:
@@ -543,7 +589,7 @@ export const services = [
     },
   },
   {
-    slug: "teto-pergolado",
+    slug: "pergolado",
     title: "Teto Pergolado de Vidro",
     subtitle: "Proteção Contra Sol e Chuva com Sofisticação e Luz Natural",
 
@@ -554,16 +600,10 @@ export const services = [
     description:
       "Cobertura de vidro sob medida para áreas externas, oferecendo proteção, iluminação natural e valorização do imóvel com design sofisticado.",
 
-    heroImage: "/pergolado-bg.webp",
-    ctaImage: "/pergolado-bg.webp",
+    heroImage: "/images/guarda-corpo/pergolado.webp",
+    ctaImage: "/images/guarda-corpo/pergolado.webp",
 
-    gallery: [
-      "/images/pergolado/pergolado-1.webp",
-      "/images/pergolado/pergolado-2.webp",
-      "/images/pergolado/pergolado-3.webp",
-      "/images/pergolado/pergolado-4.webp",
-      "/images/pergolado/pergolado-5.webp",
-    ],
+    gallery: ["/images/guarda-corpo/pergolado.webp"],
 
     longDescription:
       "O teto pergolado de vidro é a solução ideal para quem deseja aproveitar melhor áreas externas como varandas, quintais e espaços gourmet. Ele protege contra chuva e excesso de sol sem bloquear a iluminação natural, mantendo o ambiente agradável, moderno e valorizado. Trabalhamos com projetos sob medida, utilizando vidro temperado resistente e estrutura segura para garantir durabilidade e um acabamento impecável.",
@@ -620,7 +660,7 @@ export const services = [
     },
   },
   {
-    slug: "porta-slide-door",
+    slug: "porta-slidedoor",
     title: "Porta Slide Door de Vidro",
     subtitle: "Integração de Ambientes com Elegância e Funcionalidade",
 
@@ -635,11 +675,14 @@ export const services = [
     ctaImage: "/slide-door-bg.webp",
 
     gallery: [
-      "/images/slide-door/slide-1.webp",
-      "/images/slide-door/slide-2.webp",
-      "/images/slide-door/slide-3.webp",
-      "/images/slide-door/slide-4.webp",
-      "/images/slide-door/slide-5.webp",
+      "/images/portas/porta-2.webp",
+      "/images/portas/porta-3.webp",
+      "/images/portas/porta-5.webp",
+      "/images/portas/porta-6.webp",
+      "/images/portas/porta-10.webp",
+      "/images/portas/porta-11.webp",
+      "/images/portas/porta-13.webp",
+      "/images/portas/porta-de-correr.webp",
     ],
 
     longDescription:

@@ -52,8 +52,8 @@ export default function Header() {
         <Link href="/#servicos" onClick={() => setOpen(false)}>
           Serviços
         </Link>
-        <Link href="/#fotos" onClick={() => setOpen(false)}>
-          Projetos
+        <Link href="/projetos-realizados" onClick={() => setOpen(false)}>
+          Projetos Realizados
         </Link>
         <Link href="/servicos/box-de-banheiro" onClick={() => setOpen(false)}>
           Box de Banheiro
