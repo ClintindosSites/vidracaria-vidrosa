@@ -79,11 +79,13 @@ export const services = [
     slug: "esquadrias-de-aluminio",
     title: "Esquadrias de Alumínio",
     subtitle: "Transforme Seu Imóvel com Esquadrias de Alumínio de Alto Padrão",
+
     ctaTitle: "Seu imóvel merece esquadrias à altura do seu padrão.",
     ctaDescription:
-      "Fale agora com um especialista e receba um orçamento sob medida. Garanta esquadrias de alumínio modernas, resistentes e com acabamento premium que elevam o valor do seu imóvel.",
+      "Solicite agora seu orçamento e tenha esquadrias de alumínio sob medida, com instalação profissional, acabamento premium e máxima durabilidade para valorizar seu imóvel.",
+
     description:
-      "Projetos residenciais e comerciais com acabamento impecável, durabilidade superior e instalação profissional para valorizar seu imóvel e garantir máximo conforto.",
+      "Projetos sob medida com acabamento impecável, alta resistência e design moderno para residências e comércios.",
 
     heroImage: "/janela-bg.webp",
     ctaImage: "/janela-bg.webp",
@@ -92,39 +94,76 @@ export const services = [
       "/images/esquadria-1.webp",
       "/images/esquadria-2.webp",
       "/images/esquadria-3.webp",
+      "/images/esquadria-4.webp",
+      "/images/esquadria-5.webp",
     ],
 
     longDescription:
-      "Fabricamos e instalamos esquadrias de alumínio sob medida com excelente acabamento e resistência. Ideal para quem busca durabilidade, isolamento e estética moderna em projetos residenciais ou comerciais.",
+      "As esquadrias de alumínio são a escolha ideal para quem busca durabilidade, segurança e um visual moderno. Trabalhamos com fabricação sob medida, garantindo encaixe perfeito, excelente vedação e acabamento de alto padrão para qualquer tipo de projeto.",
 
     reviews: [
       {
         name: "Marcos Lima",
-        text: "Instalei as esquadrias na minha casa inteira e o acabamento ficou impecável. O isolamento acústico melhorou muito e o visual ficou extremamente moderno.",
+        text: "Instalei em toda minha casa e o resultado foi incrível. Melhorou o isolamento e valorizou muito o imóvel.",
       },
       {
         name: "Ana Paula Rocha",
-        text: "Atendimento excelente do início ao fim. Material de alta qualidade e entrega dentro do prazo combinado.",
+        text: "Material excelente e acabamento impecável. A equipe foi muito profissional do início ao fim.",
       },
       {
         name: "Ricardo Alves",
-        text: "Equipe muito profissional, fizeram toda a instalação com cuidado e limpeza. Recomendo para quem busca qualidade.",
+        text: "Entrega rápida, instalação limpa e produto de alta qualidade. Recomendo sem dúvidas.",
       },
       {
         name: "Juliana Mendes",
-        text: "Além da estética, senti uma diferença enorme na vedação e segurança das janelas. Valeu cada centavo.",
+        text: "Além de bonito, trouxe mais segurança e vedação. Valeu totalmente o investimento.",
       },
     ],
+
+    benefits: {
+      title: "Por que investir em esquadrias de alumínio?",
+      subtitle:
+        "Conheça as vantagens e escolha o modelo ideal para seu projeto com o melhor custo-benefício.",
+
+      items: [
+        {
+          title: "Alta Durabilidade",
+          description:
+            "O alumínio não enferruja, resiste ao tempo e mantém sua aparência por muitos anos sem necessidade de manutenção constante.",
+        },
+        {
+          title: "Isolamento Acústico e Térmico",
+          description:
+            "Reduz ruídos externos e ajuda a manter a temperatura interna mais confortável, trazendo mais qualidade de vida.",
+        },
+        {
+          title: "Design Moderno",
+          description:
+            "Linhas elegantes e acabamento sofisticado que valorizam o imóvel e combinam com qualquer estilo arquitetônico.",
+        },
+        {
+          title: "Vedação e Segurança",
+          description:
+            "Sistema de fechamento eficiente que impede infiltrações e aumenta a segurança do ambiente.",
+        },
+      ],
+
+      highlight:
+        "Investir em esquadrias de alumínio é garantir valorização do imóvel, conforto no dia a dia e um excelente custo-benefício a longo prazo.",
+    },
   },
 
   {
     slug: "fachada-de-vidro",
     title: "Fachada de Vidro",
-    subtitle:
-      "Sua fachada é o cartão de visitas do seu negócio. Está causando a impressão certa?",
+    subtitle: "Destaque Seu Imóvel com Sofisticação e Impacto Visual Moderno",
+
+    ctaTitle: "Transforme sua fachada e valorize seu imóvel.",
+    ctaDescription:
+      "Solicite agora um orçamento e tenha uma fachada de vidro moderna, elegante e resistente, com instalação profissional e acabamento de alto padrão.",
 
     description:
-      "Transforme seu imóvel em referência visual com uma fachada de vidro moderna, imponente e extremamente valorizada.",
+      "Projetos de fachadas de vidro sob medida para residências e comércios, com design sofisticado, alta durabilidade e valorização do imóvel.",
 
     heroImage: "/fachada-bg.webp",
     ctaImage: "/fachada-bg.webp",
@@ -133,91 +172,154 @@ export const services = [
       "/images/fachada-de-vidro.webp",
       "/images/fachada-2.webp",
       "/images/fachada-3.webp",
+      "/images/fachada-4.webp",
+      "/images/fachada-5.webp",
     ],
 
-    ctaTitle: "Seu imóvel merece uma fachada que impressiona.",
-    ctaDescription:
-      "Solicite agora um orçamento personalizado e valorize seu patrimônio com segurança e sofisticação",
-
     longDescription:
-      "Projetamos e instalamos fachadas de vidro sob medida que elevam o padrão estético e valorizam significativamente seu imóvel. Trabalhamos com vidro temperado e laminado de alta resistência, estrutura reforçada e acabamento premium. Ideal para comércios que desejam atrair mais clientes e residências que buscam sofisticação, iluminação natural e modernidade. Garantimos instalação segura, alinhamento perfeito e um resultado que impressiona à primeira vista.",
+      "A fachada de vidro é uma das soluções mais modernas e sofisticadas da arquitetura atual. Além de proporcionar um visual imponente, ela permite maior entrada de luz natural, reduzindo o consumo de energia e valorizando o imóvel. Trabalhamos com projetos personalizados, garantindo segurança, resistência e acabamento impecável em cada detalhe.",
 
     reviews: [
       {
-        name: "Lucas Martins",
-        text: "Depois da instalação da fachada de vidro, minha loja ficou muito mais moderna e chamativa. Percebi aumento no fluxo de clientes logo nas primeiras semanas. Trabalho impecável.",
+        name: "Eduardo Martins",
+        text: "Minha loja ganhou outro nível depois da fachada de vidro. Ficou muito mais moderna e atrativa para os clientes.",
       },
       {
-        name: "Patrícia Rocha",
-        text: "A fachada transformou completamente a aparência do meu prédio comercial. Acabamento refinado, estrutura segura e equipe extremamente profissional.",
+        name: "Patrícia Gomes",
+        text: "Projeto impecável do início ao fim. A fachada trouxe sofisticação e valorizou muito o imóvel.",
       },
       {
-        name: "Eduardo Souza",
-        text: "Desde o primeiro atendimento até a instalação final, tudo foi feito com excelência. A valorização do imóvel foi visível.",
+        name: "Rafael Costa",
+        text: "Equipe profissional e material de alta qualidade. O resultado final superou minhas expectativas.",
       },
       {
-        name: "Fernanda Lima",
-        text: "Escolhi fazer a fachada para modernizar meu negócio e superou minhas expectativas. Ficou sofisticada, segura e muito elegante.",
+        name: "Luciana Freitas",
+        text: "Além de linda, a fachada trouxe mais iluminação natural e conforto para o ambiente interno.",
       },
     ],
+
+    benefits: {
+      title: "Por que investir em fachada de vidro?",
+      subtitle:
+        "Entenda como essa solução pode transformar seu imóvel e gerar mais valor estético e financeiro.",
+
+      items: [
+        {
+          title: "Impacto Visual e Sofisticação",
+          description:
+            "Uma fachada de vidro chama atenção, transmite modernidade e destaca seu imóvel entre os demais.",
+        },
+        {
+          title: "Valorização do Imóvel",
+          description:
+            "Projetos com vidro aumentam significativamente o valor percebido do imóvel, ideal para residências e comércios.",
+        },
+        {
+          title: "Mais Iluminação Natural",
+          description:
+            "Aproveita melhor a luz do dia, reduzindo o uso de energia elétrica e trazendo mais conforto ao ambiente.",
+        },
+        {
+          title: "Resistência e Segurança",
+          description:
+            "Utilizamos vidro temperado de alta resistência, garantindo durabilidade e segurança no uso diário.",
+        },
+      ],
+
+      highlight:
+        "Uma fachada de vidro não é apenas estética: é um investimento inteligente que aumenta o valor do imóvel, melhora a experiência do ambiente e transmite profissionalismo e modernidade.",
+    },
   },
 
   {
     slug: "janelas-blindex",
-    title: "Janelas de Vidro Blindex",
-    subtitle: "Mais Luz Natural, Segurança e Sofisticação para Seu Imóvel",
+    title: "Janelas Blindex",
+    subtitle: "Mais Iluminação, Segurança e Modernidade para Seu Ambiente",
 
-    ctaTitle: "Ilumine e valorize seu imóvel com janelas modernas e seguras.",
+    ctaTitle: "Instale janelas modernas e valorize seu imóvel.",
     ctaDescription:
-      "Solicite agora um orçamento personalizado de janelas em vidro temperado sob medida e transforme seu ambiente com mais iluminação natural, conforto e acabamento de alto padrão.",
+      "Solicite agora seu orçamento de janelas blindex sob medida. Trabalhamos com instalação profissional, excelente vedação e acabamento de alto padrão.",
 
     description:
-      "Janelas de vidro temperado Blindex sob medida com alta resistência, vedação eficiente e instalação profissional para quem busca segurança, modernidade e valorização do imóvel.",
+      "Janelas de vidro temperado sob medida com alta resistência, design moderno e excelente vedação para residências e comércios.",
 
     heroImage: "/janela-bg.webp",
     ctaImage: "/janela-bg.webp",
 
     gallery: [
-      "/images/janelas/janela-10.webp",
-      "/images/janelas/janela-8.webp",
-      "/images/janelas/janela-6.webp",
+      "/images/janelas/janela-1.webp",
+      "/images/janelas/janela-2.webp",
+      "/images/janelas/janela-3.webp",
+      "/images/janelas/janela-4.webp",
+      "/images/janelas/janela-5.webp",
     ],
 
     longDescription:
-      "Projetamos e instalamos janelas de vidro temperado sob medida que elevam o padrão estético e funcional do seu imóvel. Utilizamos vidro de alta resistência com excelente vedação, proporcionando mais iluminação natural, conforto térmico e segurança. Ideais para residências e comércios que buscam modernidade, durabilidade e valorização do patrimônio. Garantimos instalação precisa, alinhamento perfeito e acabamento premium.",
+      "As janelas blindex são ideais para quem busca um ambiente mais iluminado, moderno e seguro. Trabalhamos com fabricação sob medida, garantindo encaixe perfeito, ótima vedação e acabamento de qualidade. Oferecemos diversos modelos como janelas de correr, basculantes e versatik, adaptando cada projeto às necessidades do cliente.",
 
     reviews: [
       {
-        name: "Juliana Costa",
-        text: "Depois que instalei as janelas Blindex, minha casa ficou muito mais iluminada e elegante. A vedação é excelente e o acabamento realmente é de alto padrão. Valeu cada centavo.",
+        name: "Fernando Ribeiro",
+        text: "Instalei janelas blindex na minha casa e ficou incrível. Muito mais iluminação e acabamento perfeito.",
       },
       {
-        name: "Bruno Henrique",
-        text: "O vidro é super resistente e a instalação foi extremamente profissional. A casa ficou mais moderna e valorizada. Atendimento rápido e equipe muito competente.",
+        name: "Camila Duarte",
+        text: "Excelente vedação e qualidade do material. A instalação foi rápida e bem feita.",
       },
       {
-        name: "Camila Freitas",
-        text: "A diferença na iluminação natural foi impressionante. Além de deixar o ambiente mais bonito, trouxe sensação de amplitude e conforto. Trabalho impecável.",
+        name: "Lucas Martins",
+        text: "Equipe profissional e produto de alta qualidade. Melhorou muito o conforto dentro de casa.",
       },
       {
-        name: "Rafael Mendes",
-        text: "Excelente qualidade de material e acabamento refinado. As janelas trouxeram mais segurança e modernidade para meu imóvel. Recomendo sem dúvidas.",
+        name: "Priscila Gomes",
+        text: "Além de bonitas, as janelas são muito seguras e fáceis de limpar. Recomendo bastante.",
       },
     ],
+
+    benefits: {
+      title: "Qual modelo de janela blindex escolher?",
+      subtitle:
+        "Conheça os principais modelos e escolha a melhor opção para seu espaço com ótimo custo-benefício.",
+
+      items: [
+        {
+          title: "Janela 2 Folhas Fixas + 2 de Correr",
+          description:
+            "Modelo mais procurado, ideal para ventilação e entrada de luz, com excelente custo-benefício e praticidade.",
+        },
+        {
+          title: "Janela Versatik",
+          description:
+            "Sistema moderno que permite maior abertura do vão, proporcionando mais ventilação e sofisticação ao ambiente.",
+        },
+        {
+          title: "Janela Basculante",
+          description:
+            "Perfeita para banheiros e áreas menores, garante ventilação constante com segurança e praticidade no uso.",
+        },
+        {
+          title: "Sob Medida para Seu Projeto",
+          description:
+            "Fabricamos conforme seu espaço, garantindo encaixe perfeito, melhor vedação e acabamento profissional.",
+        },
+      ],
+
+      highlight:
+        "As janelas blindex valorizam o imóvel, aumentam a entrada de luz natural e oferecem excelente durabilidade. Um investimento acessível que traz conforto, segurança e modernidade para o dia a dia.",
+    },
   },
 
   {
     slug: "portas-blindex",
-    title: "Portas de Vidro Blindex",
-    subtitle: "Sofisticação, Segurança e Impacto Visual em Cada Detalhe",
+    title: "Portas Blindex",
+    subtitle: "Elegância, Segurança e Sofisticação para Seu Ambiente",
 
-    ctaTitle:
-      "Transforme seu ambiente com portas de vidro modernas e imponentes.",
+    ctaTitle: "Transforme a entrada do seu imóvel com portas modernas.",
     ctaDescription:
-      "Solicite agora seu orçamento de portas em vidro temperado sob medida e leve mais elegância, luminosidade e valorização para seu imóvel com instalação profissional e acabamento premium.",
+      "Solicite agora seu orçamento de portas blindex sob medida. Tenha um acabamento impecável, instalação profissional e um visual sofisticado que valoriza seu espaço.",
 
     description:
-      "Portas de vidro Blindex sob medida com alta resistência, design moderno e instalação especializada para quem busca sofisticação, segurança e valorização do ambiente.",
+      "Portas de vidro temperado sob medida com alta resistência, design moderno e acabamento premium para residências e comércios.",
 
     heroImage: "/porta-bg.webp",
     ctaImage: "/porta-bg.webp",
@@ -226,130 +328,231 @@ export const services = [
       "/images/portas/porta-1.webp",
       "/images/portas/porta-2.webp",
       "/images/portas/porta-3.webp",
+      "/images/portas/porta-4.webp",
+      "/images/portas/porta-5.webp",
     ],
 
     longDescription:
-      "Projetamos e instalamos portas de vidro temperado sob medida que elevam o padrão estético e funcional do seu imóvel. Utilizamos vidro de alta resistência com ferragens reforçadas e acabamento refinado, garantindo segurança, durabilidade e um visual sofisticado. Ideais para ambientes internos e externos, as portas de vidro proporcionam maior integração dos espaços, mais iluminação natural e sensação de amplitude. Trabalhamos com instalação precisa, alinhamento perfeito e padrão profissional para entregar um resultado moderno, elegante e duradouro.",
+      "As portas blindex são ideais para quem busca modernidade, segurança e valorização do ambiente. Trabalhamos com fabricação sob medida, garantindo encaixe perfeito, excelente vedação e acabamento de alto padrão. Nossos modelos atendem desde projetos residenciais até comerciais, sempre com vidro temperado de alta resistência e instalação profissional.",
 
     reviews: [
       {
-        name: "Renato Gomes",
-        text: "A porta de vidro transformou completamente a entrada da minha casa. O acabamento é impecável e trouxe um nível de sofisticação que eu não imaginava. Serviço extremamente profissional.",
+        name: "Roberto Almeida",
+        text: "A porta ficou simplesmente incrível. Deu um ar moderno para minha casa e o acabamento é impecável.",
       },
       {
-        name: "Sabrina Melo",
-        text: "Meu ambiente ficou muito mais moderno e iluminado. A qualidade do vidro e das ferragens é excelente. Instalação rápida, limpa e com ótimo atendimento.",
+        name: "Carla Mendes",
+        text: "Material de excelente qualidade e instalação muito bem feita. Super recomendo.",
       },
       {
-        name: "Felipe Rocha",
-        text: "Produto de alto padrão e equipe muito competente. A porta trouxe valorização imediata para o imóvel. Cumpriram o prazo e superaram minhas expectativas.",
+        name: "Gustavo Ferreira",
+        text: "Coloquei na entrada do meu comércio e fez muita diferença. Ficou mais elegante e atrativo.",
       },
       {
-        name: "Amanda Oliveira",
-        text: "Além de linda, a porta é extremamente resistente e segura. O resultado final ficou sofisticado e elegante. Recomendo para quem quer qualidade de verdade.",
+        name: "Patrícia Nunes",
+        text: "Além de bonita, é muito segura e resistente. Valeu cada centavo investido.",
       },
     ],
+
+    benefits: {
+      title: "Qual o melhor modelo de porta blindex?",
+      subtitle:
+        "Conheça as opções disponíveis e escolha a ideal para seu projeto com o melhor custo-benefício.",
+
+      items: [
+        {
+          title: "Porta Pivotante",
+          description:
+            "Modelo sofisticado e imponente, ideal para entradas principais. Proporciona um visual moderno e elegante ao ambiente.",
+        },
+        {
+          title: "Porta de Correr",
+          description:
+            "Perfeita para otimizar espaços, trazendo praticidade e um design limpo sem comprometer a circulação.",
+        },
+        {
+          title: "Porta Convencional",
+          description:
+            "Modelo tradicional com excelente vedação e funcionalidade, ideal para uso interno ou externo.",
+        },
+        {
+          title: "Vidro Temperado Sob Medida",
+          description:
+            "Fabricamos conforme seu espaço, garantindo encaixe perfeito, resistência e acabamento profissional.",
+        },
+      ],
+
+      highlight:
+        "As portas blindex valorizam o imóvel, aumentam a entrada de luz natural e oferecem alta durabilidade. Um investimento acessível que traz sofisticação, segurança e modernidade.",
+    },
   },
 
   {
     slug: "espelho",
     title: "Espelhos Sob Medida",
-    subtitle: "Amplitude, Luz e Sofisticação em Cada Detalhe",
+    subtitle: "Mais Amplitude, Elegância e Sofisticação para Seu Ambiente",
 
-    ctaTitle: "Transforme seu ambiente com espelhos sob medida de alto padrão.",
+    ctaTitle: "Transforme seu espaço com espelhos sob medida.",
     ctaDescription:
-      "Solicite agora seu orçamento personalizado e leve mais amplitude, iluminação e elegância para seu espaço com instalação profissional e acabamento impecável.",
+      "Solicite agora seu orçamento e tenha espelhos personalizados com instalação profissional, acabamento impecável e design que valoriza seu ambiente.",
 
     description:
-      "Espelhos sob medida com acabamento refinado, design personalizado e instalação profissional para quem busca sofisticação, amplitude e valorização do ambiente.",
+      "Espelhos sob medida para residências e comércios, com acabamento refinado, instalação segura e efeito visual que amplia e valoriza o ambiente.",
 
-    heroImage: "/images/espelho.webp",
-    ctaImage: "/images/espelho.webp",
+    heroImage: "/espelho-bg.webp",
+    ctaImage: "/espelho-bg.webp",
 
     gallery: [
-      "/images/espelho.webp",
-      "/images/espelho-2.webp",
-      "/images/espelho-3.webp",
+      "/images/espelho/espelho-1.webp",
+      "/images/espelho/espelho-2.webp",
+      "/images/espelho/espelho-3.webp",
+      "/images/espelho/espelho-4.webp",
+      "/images/espelho/espelho-5.webp",
     ],
 
     longDescription:
-      "Projetamos e instalamos espelhos sob medida que transformam completamente o ambiente. Além de ampliar visualmente os espaços, os espelhos proporcionam mais luminosidade, elegância e sensação de sofisticação imediata. Trabalhamos com cortes precisos, acabamento lapidado e instalação profissional para garantir segurança e perfeição estética. Ideais para salas, quartos, banheiros, academias, comércios e ambientes corporativos que desejam modernidade e valorização do imóvel. Cada projeto é pensado de forma personalizada para harmonizar perfeitamente com o seu espaço.",
+      "Os espelhos sob medida são ideais para quem deseja ampliar ambientes, melhorar a iluminação e trazer sofisticação à decoração. Trabalhamos com projetos personalizados para salas, quartos, banheiros, academias e comércios, sempre com acabamento de alto padrão e instalação segura.",
 
     reviews: [
       {
-        name: "Larissa Santos",
-        text: "O espelho transformou completamente minha sala. O ambiente ficou muito mais amplo, iluminado e sofisticado. O acabamento é perfeito e a instalação foi extremamente profissional.",
+        name: "Juliana Costa",
+        text: "O espelho mudou completamente minha sala. Deu uma sensação de espaço muito maior e ficou lindo.",
       },
       {
-        name: "Paulo Henrique",
-        text: "Excelente qualidade no corte e na lapidação. O espelho trouxe elegância imediata ao ambiente. Atendimento ágil e muito cuidadoso.",
+        name: "Renato Oliveira",
+        text: "Instalei no quarto e ficou perfeito. Acabamento impecável e instalação rápida.",
       },
       {
-        name: "Vanessa Lima",
-        text: "Meu quarto ficou muito mais moderno e valorizado. O espelho ampliou o espaço e trouxe uma sensação incrível de conforto e requinte.",
+        name: "Camila Fernandes",
+        text: "Coloquei no banheiro e trouxe muita elegância. Atendimento excelente.",
       },
       {
-        name: "Camila Duarte",
-        text: "Instalação impecável e resultado surpreendente. O espelho deu outro nível ao meu ambiente comercial. Recomendo para quem busca sofisticação de verdade.",
+        name: "Bruno Martins",
+        text: "Usei no meu comércio e valorizou muito o ambiente. Ficou mais moderno e iluminado.",
       },
     ],
+
+    benefits: {
+      title: "Por que investir em espelhos sob medida?",
+      subtitle:
+        "Descubra como os espelhos podem transformar seu ambiente com beleza e funcionalidade.",
+
+      items: [
+        {
+          title: "Ampliação de Ambientes",
+          description:
+            "Cria sensação de espaço maior, ideal para ambientes pequenos ou que precisam de mais leveza visual.",
+        },
+        {
+          title: "Mais Iluminação",
+          description:
+            "Reflete a luz natural e artificial, deixando o ambiente mais claro e agradável.",
+        },
+        {
+          title: "Decoração Sofisticada",
+          description:
+            "Adapta-se a qualquer estilo, trazendo elegância e valorizando o design do espaço.",
+        },
+        {
+          title: "Projeto Sob Medida",
+          description:
+            "Fabricado conforme seu ambiente, garantindo encaixe perfeito e acabamento profissional.",
+        },
+      ],
+
+      highlight:
+        "Espelhos sob medida são um investimento acessível que transforma completamente o ambiente, trazendo mais amplitude, iluminação e sofisticação para o dia a dia.",
+    },
   },
 
   {
     slug: "guarda-corpo",
     title: "Guarda Corpo de Vidro",
-    subtitle: "Segurança Máxima com Elegância e Sofisticação",
+    subtitle: "Segurança, Sofisticação e Visão Ampliada para Seu Espaço",
 
-    ctaTitle: "Proteja seu espaço sem abrir mão da estética moderna.",
+    ctaTitle: "Proteja e valorize seu imóvel com guarda corpo de vidro.",
     ctaDescription:
-      "Solicite agora seu orçamento para guarda corpo de vidro sob medida e garanta segurança, resistência e acabamento premium para sua escada, varanda ou sacada.",
+      "Solicite agora seu orçamento e tenha um guarda corpo moderno, resistente e com acabamento premium, instalado por profissionais experientes.",
 
     description:
-      "Guarda corpo de vidro temperado e laminado com alta resistência, instalação profissional e acabamento sofisticado para quem busca proteção e valorização do imóvel.",
+      "Guarda corpo de vidro sob medida com alta resistência, design moderno e máxima segurança para escadas, sacadas e varandas.",
 
-    heroImage: "/guarda-corpo-bg.webp",
-    ctaImage: "/guarda-corpo-bg.webp",
+    heroImage: "/guarda-bg.webp",
+    ctaImage: "/guarda-bg.webp",
 
     gallery: [
-      "/images/guarda-corpo-16.webp",
-      "/images/guarda-corpo-14.webp",
-      "/images/guarda-corpo-12.webp",
+      "/images/guarda-corpo/guarda-1.webp",
+      "/images/guarda-corpo/guarda-2.webp",
+      "/images/guarda-corpo/guarda-3.webp",
+      "/images/guarda-corpo/guarda-4.webp",
+      "/images/guarda-corpo/guarda-5.webp",
     ],
 
     longDescription:
-      "Projetamos e instalamos guarda corpo de vidro sob medida com foco total em segurança estrutural, resistência e acabamento de alto padrão. Trabalhamos com vidro temperado e laminado de alta performance, ideal para escadas, sacadas, varandas e áreas elevadas. Nosso sistema de fixação garante firmeza, estabilidade e conformidade técnica, oferecendo proteção sem comprometer a estética do ambiente. O resultado é um visual moderno, elegante e valorização imediata do imóvel, mantendo leveza e transparência no design.",
+      "O guarda corpo de vidro é a solução ideal para quem busca segurança sem abrir mão da estética. Muito utilizado em escadas, varandas e sacadas, ele proporciona proteção, amplia a visão do ambiente e valoriza o imóvel com um design moderno e sofisticado. Trabalhamos com projetos sob medida, utilizando vidro temperado de alta resistência e fixações seguras para garantir durabilidade e confiança.",
 
     reviews: [
       {
-        name: "Diego Alves",
-        text: "Fiquei impressionado com a segurança e firmeza da estrutura. O acabamento é impecável e trouxe um visual moderno para minha escada. Trabalho extremamente profissional.",
+        name: "André Carvalho",
+        text: "Instalei na minha sacada e ficou simplesmente incrível. Segurança total sem perder a vista.",
       },
       {
-        name: "Carla Mendes",
-        text: "Instalei na minha sacada e ficou perfeito. Além de seguro, deixou o ambiente mais sofisticado e valorizou muito meu apartamento.",
+        name: "Beatriz Lima",
+        text: "Acabamento impecável e instalação muito profissional. Deu outro nível para minha casa.",
       },
       {
-        name: "Rafael Costa",
-        text: "Equipe muito organizada e cuidadosa na instalação. O guarda corpo ficou sólido, elegante e com excelente acabamento.",
+        name: "Rodrigo Mendes",
+        text: "Material resistente e muito bem instalado. Ficou moderno e trouxe mais segurança para minha família.",
       },
       {
-        name: "Patrícia Gomes",
-        text: "Escolhi o guarda corpo de vidro pela estética e segurança, e superou minhas expectativas. Estrutura firme, design moderno e resultado de alto padrão.",
+        name: "Tatiane Souza",
+        text: "Além de seguro, deixou o ambiente mais elegante e valorizado. Recomendo demais.",
       },
     ],
+
+    benefits: {
+      title: "Por que investir em guarda corpo de vidro?",
+      subtitle:
+        "Entenda como essa solução une segurança, estética e valorização do imóvel.",
+
+      items: [
+        {
+          title: "Segurança e Resistência",
+          description:
+            "Fabricado com vidro temperado de alta resistência, garantindo proteção para escadas, sacadas e varandas.",
+        },
+        {
+          title: "Visão Ampliada",
+          description:
+            "Mantém a visibilidade do ambiente sem barreiras visuais, ideal para quem valoriza a estética e a vista.",
+        },
+        {
+          title: "Design Moderno",
+          description:
+            "Acabamento sofisticado que combina com qualquer estilo arquitetônico e valoriza o imóvel.",
+        },
+        {
+          title: "Instalação Sob Medida",
+          description:
+            "Projetos personalizados com encaixe perfeito, garantindo segurança e acabamento profissional.",
+        },
+      ],
+
+      highlight:
+        "O guarda corpo de vidro é um investimento inteligente que une proteção, elegância e valorização do imóvel, trazendo mais segurança e sofisticação para o seu dia a dia.",
+    },
   },
   {
-    slug: "pergolado",
-    title: "Pergolado de Vidro",
-    subtitle:
-      "Proteção Contra Sol e Chuva com Sofisticação e Iluminação Natural",
+    slug: "teto-pergolado",
+    title: "Teto Pergolado de Vidro",
+    subtitle: "Proteção Contra Sol e Chuva com Sofisticação e Luz Natural",
 
-    ctaTitle: "Transforme sua área externa em um espaço elegante e valorizado.",
+    ctaTitle: "Transforme sua área externa em um espaço confortável.",
     ctaDescription:
-      "Solicite agora seu orçamento para pergolado de vidro sob medida e garanta instalação profissional, estrutura reforçada e acabamento premium. Mais conforto, proteção e valorização imediata do seu imóvel com excelente custo-benefício.",
+      "Solicite agora seu orçamento de teto pergolado de vidro sob medida e aproveite sua área externa com conforto, proteção e um visual moderno o ano inteiro.",
 
     description:
-      "Pergolado de vidro temperado e laminado de alta resistência, projetado sob medida para oferecer proteção, durabilidade e sofisticação em áreas externas.",
+      "Cobertura de vidro sob medida para áreas externas, oferecendo proteção, iluminação natural e valorização do imóvel com design sofisticado.",
 
     heroImage: "/pergolado-bg.webp",
     ctaImage: "/pergolado-bg.webp",
@@ -358,72 +561,139 @@ export const services = [
       "/images/pergolado/pergolado-1.webp",
       "/images/pergolado/pergolado-2.webp",
       "/images/pergolado/pergolado-3.webp",
+      "/images/pergolado/pergolado-4.webp",
+      "/images/pergolado/pergolado-5.webp",
     ],
 
     longDescription:
-      "O pergolado de vidro é a solução ideal para quem deseja aproveitar melhor áreas externas sem abrir mão de elegância e proteção. Desenvolvido sob medida, ele protege contra chuva e excesso de sol, mantendo a iluminação natural e a sensação de amplitude.\n\nUtilizamos vidro temperado e laminado de alta resistência, com estrutura reforçada e acabamento de alto padrão, garantindo segurança, durabilidade e estética moderna.\n\nPerfeito para áreas gourmet, varandas, jardins e corredores, o pergolado valoriza significativamente o imóvel, elevando o padrão do ambiente e proporcionando conforto o ano inteiro.",
+      "O teto pergolado de vidro é a solução ideal para quem deseja aproveitar melhor áreas externas como varandas, quintais e espaços gourmet. Ele protege contra chuva e excesso de sol sem bloquear a iluminação natural, mantendo o ambiente agradável, moderno e valorizado. Trabalhamos com projetos sob medida, utilizando vidro temperado resistente e estrutura segura para garantir durabilidade e um acabamento impecável.",
 
     reviews: [
       {
-        name: "Marcelo Andrade",
-        text: "Meu espaço gourmet ficou outro nível depois do pergolado. Protege da chuva e manteve a iluminação perfeita.",
+        name: "Eduardo Pires",
+        text: "Agora consigo usar minha área gourmet em qualquer clima. Ficou lindo e muito funcional.",
       },
       {
-        name: "Tatiane Lima",
-        text: "Estrutura firme, acabamento impecável e visual sofisticado. Valorizou muito minha área externa.",
+        name: "Patrícia Souza",
+        text: "Transformou completamente meu quintal. Protege da chuva e ainda mantém o ambiente iluminado.",
       },
       {
-        name: "Eduardo Souza",
-        text: "Instalação rápida e resultado incrível. Ficou moderno e extremamente resistente.",
+        name: "Leandro Costa",
+        text: "Estrutura firme, vidro de qualidade e instalação profissional. Valeu muito a pena.",
       },
       {
-        name: "Bruna Castro",
-        text: "Melhor investimento que fiz na minha casa. Ficou elegante, funcional e muito seguro.",
+        name: "Vanessa Ribeiro",
+        text: "Além de proteger, deixou o ambiente muito mais elegante. Recomendo demais.",
       },
     ],
+
+    benefits: {
+      title: "Por que investir em teto pergolado de vidro?",
+      subtitle:
+        "Entenda como essa solução transforma sua área externa com conforto e sofisticação.",
+
+      items: [
+        {
+          title: "Proteção Contra Clima",
+          description:
+            "Bloqueia chuva e reduz o impacto do sol, permitindo o uso do espaço em qualquer condição.",
+        },
+        {
+          title: "Iluminação Natural",
+          description:
+            "Mantém o ambiente claro e agradável durante o dia, sem necessidade de luz artificial.",
+        },
+        {
+          title: "Valorização do Imóvel",
+          description:
+            "Um espaço coberto e bem estruturado aumenta o valor e o conforto do imóvel.",
+        },
+        {
+          title: "Projeto Sob Medida",
+          description:
+            "Desenvolvido conforme seu espaço, garantindo encaixe perfeito e acabamento profissional.",
+        },
+      ],
+
+      highlight:
+        "O teto pergolado de vidro transforma áreas externas em ambientes funcionais e sofisticados, proporcionando conforto, proteção e valorização do imóvel com excelente custo-benefício.",
+    },
   },
   {
-    slug: "porta-slidedoor",
+    slug: "porta-slide-door",
     title: "Porta Slide Door de Vidro",
-    subtitle: "Integração Total de Ambientes com Design Moderno e Sofisticação",
+    subtitle: "Integração de Ambientes com Elegância e Funcionalidade",
 
-    ctaTitle:
-      "Integre seus ambientes com elegância e máximo aproveitamento de espaço.",
+    ctaTitle: "Integre seus ambientes com portas modernas e sofisticadas.",
     ctaDescription:
-      "Peça agora seu orçamento para porta slide door sob medida e transforme seu ambiente com vidro temperado de alta resistência, ferragens premium e instalação profissional. Mais iluminação, modernidade e valorização imediata do seu imóvel.",
+      "Solicite agora seu orçamento de porta slide door sob medida e transforme seu espaço com mais amplitude, iluminação e design moderno.",
 
     description:
-      "Porta slide door em vidro temperado sob medida, ideal para integrar ambientes com leveza, segurança e acabamento sofisticado.",
+      "Portas de correr em vidro temperado sob medida, ideais para integração de ambientes com elegância, praticidade e excelente aproveitamento de espaço.",
 
-    heroImage: "/slidedoor-bg.webp",
-    ctaImage: "/slidedoor-bg.webp",
+    heroImage: "/slide-door-bg.webp",
+    ctaImage: "/slide-door-bg.webp",
 
     gallery: [
-      "/images/slidedoor/slide-1.webp",
-      "/images/slidedoor/slide-2.webp",
-      "/images/slidedoor/slide-3.webp",
+      "/images/slide-door/slide-1.webp",
+      "/images/slide-door/slide-2.webp",
+      "/images/slide-door/slide-3.webp",
+      "/images/slide-door/slide-4.webp",
+      "/images/slide-door/slide-5.webp",
     ],
 
     longDescription:
-      "A porta slide door de vidro é perfeita para quem busca integração de ambientes com sofisticação e funcionalidade. Seu sistema deslizante otimiza espaço, proporciona ampla entrada de luz natural e cria uma transição fluida entre áreas internas e externas.\n\nFabricada sob medida com vidro temperado de alta resistência e ferragens de alto padrão, oferece durabilidade, segurança e acabamento impecável.\n\nIdeal para salas, áreas gourmet, varandas e ambientes comerciais que exigem modernidade, leveza e valorização estética imediata.",
+      "A porta slide door é a solução perfeita para quem busca integração de ambientes com um visual moderno e sofisticado. Ideal para salas, áreas gourmet, varandas e divisões internas, ela permite maior entrada de luz natural e melhora a circulação do espaço. Trabalhamos com fabricação sob medida, garantindo leveza no deslizamento, excelente vedação e acabamento de alto padrão.",
 
     reviews: [
       {
-        name: "Ricardo Martins",
-        text: "A integração entre sala e área externa ficou incrível. Muito elegante e funcional.",
+        name: "Felipe Andrade",
+        text: "Coloquei na divisão da sala com a varanda e ficou incrível. Ambiente muito mais moderno e integrado.",
       },
       {
-        name: "Camila Duarte",
-        text: "Desliza com leveza e o acabamento é impecável. Transformou completamente o ambiente.",
+        name: "Juliana Rocha",
+        text: "Deslizamento super leve e acabamento impecável. Mudou totalmente o visual da casa.",
       },
       {
-        name: "Fernando Oliveira",
-        text: "Produto de alto padrão e instalação muito profissional. Superou minhas expectativas.",
+        name: "Bruno Carvalho",
+        text: "Excelente solução para economizar espaço sem perder elegância. Recomendo muito.",
       },
       {
-        name: "Juliana Mendes",
-        text: "Além de lindo, economiza espaço e deixa o ambiente muito mais moderno.",
+        name: "Camila Torres",
+        text: "Além de linda, trouxe mais iluminação e sensação de amplitude para o ambiente.",
       },
     ],
+
+    benefits: {
+      title: "Por que escolher porta slide door?",
+      subtitle:
+        "Veja como essa solução pode transformar seus ambientes com praticidade e sofisticação.",
+
+      items: [
+        {
+          title: "Integração de Ambientes",
+          description:
+            "Permite unir espaços internos e externos, criando ambientes mais amplos e modernos.",
+        },
+        {
+          title: "Economia de Espaço",
+          description:
+            "Sistema de correr que não ocupa área de abertura, ideal para otimizar ambientes.",
+        },
+        {
+          title: "Mais Iluminação Natural",
+          description:
+            "O vidro amplia a entrada de luz, deixando o ambiente mais agradável e valorizado.",
+        },
+        {
+          title: "Deslizamento Suave",
+          description:
+            "Sistema moderno que garante abertura leve, silenciosa e com excelente durabilidade.",
+        },
+      ],
+
+      highlight:
+        "A porta slide door é um investimento que une funcionalidade, beleza e valorização do imóvel, trazendo mais conforto e sofisticação para o dia a dia.",
+    },
   },
 ];

@@ -3,14 +3,13 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import Link from "next/link";
 
 export default function ServiceGallery({ images, title }: any) {
   return (
     <div className="gallery-wrapper">
       <Swiper
         slidesPerView={1.2}
-        spaceBetween={20}
+        spaceBetween={10}
         centeredSlides={true}
         loop={true}
         breakpoints={{
@@ -18,7 +17,7 @@ export default function ServiceGallery({ images, title }: any) {
             slidesPerView: 2.2,
           },
           1024: {
-            slidesPerView: 3,
+            slidesPerView: 4,
           },
         }}
       >
@@ -29,16 +28,13 @@ export default function ServiceGallery({ images, title }: any) {
                 src={img}
                 alt={title}
                 fill
-                sizes="(max-width: 768px) 100vw, 50vw"
+                sizes="(max-width: 900px) 100vw, 35vw"
                 style={{ objectFit: "cover" }}
               />
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
-      <Link className="cta-button cta-auto" href={"https://wa.me/"}>
-        Solicitar Orçamento pelo WhatsApp
-      </Link>
     </div>
   );
 }

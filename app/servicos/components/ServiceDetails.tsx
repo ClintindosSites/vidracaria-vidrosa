@@ -1,6 +1,5 @@
 import ServiceGallery from "./ServiceGallery";
 import ServiceBenefits from "./ServiceBenefits";
-import { color } from "framer-motion";
 
 interface Review {
   name: string;
@@ -34,32 +33,6 @@ export default function ServiceDetails({ service }: { service: Service }) {
         </div>
         {/* BENEFÍCIOS */}
         {service.benefits && <ServiceBenefits service={service} />}
-        <h2 className="review-title">
-          O que nossos clientes dizem sobre nosso <br />{" "}
-          <span>{service.title}</span>
-        </h2>
-        {/* ⭐ REVIEWS */}
-        <div className="reviews">
-          {service.reviews.map((review, index) => {
-            const initials = review.name
-              .split(" ")
-              .map(n => n[0])
-              .join("");
-
-            return (
-              <div className="review" key={index}>
-                <div className="review-header">
-                  <div className="avatar">{initials}</div>
-                  <div>
-                    <strong>{review.name}</strong>
-                    <div className="stars">★★★★★</div>
-                  </div>
-                </div>
-                <p>{review.text}</p>
-              </div>
-            );
-          })}
-        </div>
       </div>
     </section>
   );

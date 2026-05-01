@@ -2,6 +2,7 @@ import { services } from "@/data/services";
 import ServiceCTA from "../components/ServiceCTA";
 import ServiceDetails from "../components/ServiceDetails";
 import ServiceHero from "../components/ServiceHero";
+import Reviews from "../components/Reviews";
 
 export default async function ServicePage({
   params,
@@ -29,6 +30,7 @@ export default async function ServicePage({
           "Fale agora com um especialista e receba seu orçamento personalizado."
         }
       />
+      <Reviews service={service} />
     </>
   );
 }
