@@ -41,7 +41,7 @@ export default function Servicos() {
       name: "Espelhos",
       description:
         "Espelhos sob medida que ampliam ambientes, valorizam a decoração e garantem acabamento sofisticado.",
-      image: "/images/espelho.webp",
+      image: "/images/variados/espelho.webp",
       link: "/servicos/espelho",
     },
     {
@@ -55,14 +55,14 @@ export default function Servicos() {
       name: "Porta Slide Door",
       description:
         "Porta SlideDoor é uma porta de vidro temperado com 4  ou mais folhas de correr podendo ir de um lado a para o outro",
-      image: "/images/guarda-corpo/guarda-corpo-16.webp",
+      image: "/images/portas/porta-13.webp",
       link: "/servicos/porta-slidedoor",
     },
     {
       name: "Pergolado",
       description:
         "Teto pergolado de vidro temperado com pelicula de segurança PS-04. Teto bonito, resistente e com segurança",
-      image: "/images/guarda-corpo/pergolado.webp",
+      image: "/images/variados/pergolado.webp",
       link: "/servicos/pergolado",
     },
   ];

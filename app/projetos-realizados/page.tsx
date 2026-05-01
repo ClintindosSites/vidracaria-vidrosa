@@ -5,12 +5,70 @@ import Image from "next/image";
 import Link from "next/link";
 
 const images = [
-  "/images/box/box-1.webp",
-  "/images/box/box-2.webp",
-  "/images/guarda-corpo/guarda-corpo-1.webp",
+  "/images/variados/blindex-chalé.webp",
+  "/images/variados/espelho.webp",
+  "/images/variados/pergolado-1.webp",
+  "/images/variados/pergolado.webp",
+  "/images/variados/armario-1.webp",
+  "/images/variados/armario-2.webp",
   "/images/esquadrias/esquadria-1.webp",
-  "/images/espelho.webp",
-  "/images/pergolado-1.webp",
+  "/images/esquadrias/esquadria-2.webp",
+  "/images/esquadrias/esquadria-3.webp",
+  "/images/esquadrias/esquadria-4.webp",
+  "/images/esquadrias/esquadria-5.webp",
+  "/images/esquadrias/esquadria-madeira.webp",
+  "/images/esquadrias/esquadria-madeira-2.webp",
+  "/images/esquadrias/esquadria-madeira-3.webp",
+  "/images/esquadrias/esquadria-madeira-4.webp",
+  "/images/esquadrias/esquadria-madeira-5.webp",
+  "/images/esquadrias/janela-esquadria-1.webp",
+  "/images/esquadrias/janela-esquadria-2.webp",
+  "/images/esquadrias/janela-esquadria-3.webp",
+  "/images/esquadrias/janela-esquadria-4.webp",
+  "/images/esquadrias/janela-esquadria-5.webp",
+  "/images/esquadrias/janela-esquadria-6.webp",
+  "/images/esquadrias/janela-esquadria-7.webp",
+  "/images/esquadrias/janela-esquadria-8.webp",
+  "/images/esquadrias/porta-esquadria-1.webp",
+  "/images/esquadrias/porta-esquadria-2.webp",
+  "/images/esquadrias/porta-esquadria-3.webp",
+  "/images/esquadrias/porta-esquadria-4.webp",
+  "/images/esquadrias/porta-esquadria-5.webp",
+  "/images/esquadrias/porta-esquadria-branca.webp",
+  "/images/guarda-corpo/guarda-corpo-tangara.webp",
+  "/images/guarda-corpo/mansaovidro.webp",
+  "/images/guarda-corpo/fachada-1.webp",
+  "/images/guarda-corpo/fachada-01.webp",
+  "/images/guarda-corpo/guarda-corpo-1.webp",
+  "/images/guarda-corpo/guarda-corpo-2.webp",
+  "/images/guarda-corpo/guarda-corpo-3.webp",
+  "/images/guarda-corpo/guarda-corpo-4.webp",
+  "/images/guarda-corpo/guarda-corpo-5.webp",
+  "/images/guarda-corpo/guarda-corpo-6.webp",
+  "/images/guarda-corpo/guarda-corpo-7.webp",
+  "/images/guarda-corpo/guarda-corpo-8.webp",
+  "/images/guarda-corpo/guarda-corpo-9.webp",
+  "/images/guarda-corpo/guarda-corpo-10.webp",
+  "/images/guarda-corpo/guarda-corpo-11.webp",
+  "/images/guarda-corpo/guarda-corpo-varanda.webp",
+  "/images/guarda-corpo/guarda-corpo-13.webp",
+  "/images/guarda-corpo/guarda-corpo-14.webp",
+  "/images/guarda-corpo/guarda-corpo-15.webp",
+  "/images/guarda-corpo/guarda-corpo-16.webp",
+  "/images/guarda-corpo/guarda-corpo-17.webp",
+  "/images/guarda-corpo/guarda-corpo-18.webp",
+  "/images/portas/porta-area-gourmet.webp",
+  "/images/variados/blindex-chalé.webp",
+  "/images/portas/porta-2.webp",
+  "/images/portas/porta-3.webp",
+  "/images/portas/porta-5.webp",
+  "/images/portas/porta-6.webp",
+  "/images/portas/porta-10.webp",
+  "/images/portas/porta-11.webp",
+  "/images/portas/porta-13.webp",
+  "/images/portas/porta-de-correr.webp",
+  "/images/variados/pergolado.webp",
+  "/images/variados/pergolado-1.webp",
 ];
 
 const reviews = [
@@ -38,11 +96,13 @@ export default function GaleriaPage() {
   return (
     <main className="galeria-page">
       <div className="container">
-        <h1>Galeria de Projetos Realizados</h1>
-        <p className="subtitle">
-          Veja alguns dos nossos trabalhos e o nível de qualidade que entregamos
-          em cada projeto.
-        </p>
+        <div className="galeria-hero">
+          <h1>Galeria de Projetos Realizados</h1>
+          <p className="subtitle">
+            Veja alguns dos nossos trabalhos em vidros temperados e esquadrias
+            de alumínio e o nível de qualidade que entregamos em cada projeto.
+          </p>
+        </div>
 
         {/* 🔥 GRID DE IMAGENS */}
         <div className="gallery-grid">

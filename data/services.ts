@@ -30,6 +30,8 @@ export const services = [
       "/images/box/box-4.webp",
       "/images/box/box-5.webp",
       "/images/box/box-6.webp",
+      "/images/box/box-pelicula-ps04.webp",
+      "/images/box/box-sauna.webp",
     ],
 
     longDescription:
@@ -120,6 +122,11 @@ export const services = [
       "/images/esquadrias/esquadria-3.webp",
       "/images/esquadrias/esquadria-4.webp",
       "/images/esquadrias/esquadria-5.webp",
+      "/images/esquadrias/esquadria-madeira.webp",
+      "/images/esquadrias/esquadria-madeira-2.webp",
+      "/images/esquadrias/esquadria-madeira-3.webp",
+      "/images/esquadrias/esquadria-madeira-4.webp",
+      "/images/esquadrias/esquadria-madeira-5.webp",
       "/images/esquadrias/janela-esquadria-1.webp",
       "/images/esquadrias/janela-esquadria-2.webp",
       "/images/esquadrias/janela-esquadria-3.webp",
@@ -133,6 +140,7 @@ export const services = [
       "/images/esquadrias/porta-esquadria-3.webp",
       "/images/esquadrias/porta-esquadria-4.webp",
       "/images/esquadrias/porta-esquadria-5.webp",
+      "/images/esquadrias/porta-esquadria-branca.webp",
     ],
 
     longDescription:
@@ -218,11 +226,9 @@ export const services = [
     ctaImage: "/fachada-bg.webp",
 
     gallery: [
-      "/images/fachada-de-vidro.webp",
-      "/images/fachada-2.webp",
-      "/images/fachada-3.webp",
-      "/images/fachada-4.webp",
-      "/images/fachada-5.webp",
+      "/images/janelas/fachada-de-vidro.webp",
+      "/images/guarda-corpo/fachada-1.webp",
+      "/images/guarda-corpo/fachada-01.webp",
     ],
 
     longDescription:
@@ -309,6 +315,16 @@ export const services = [
 
     gallery: [
       "/images/janelas/casa-de-madeira.webp",
+      "/images/esquadrias/esquadria-madeira.webp",
+      "/images/esquadrias/esquadria-madeira-2.webp",
+      "/images/esquadrias/esquadria-madeira-3.webp",
+      "/images/esquadrias/esquadria-madeira-4.webp",
+      "/images/esquadrias/esquadria-madeira-5.webp",
+      "/images/janelas/janela-esquadria-branca.webp",
+      "/images/janelas/janela-estribo.webp",
+      "/images/janelas/janela-estribo-2.webp",
+      "/images/janelas/janela-quatro-folhas.webp",
+      "/images/janelas/maximar.webp",
       "/images/janelas/janela-1.webp",
       "/images/janelas/janela-2.webp",
       "/images/janelas/janela-3.webp",
@@ -511,7 +527,10 @@ export const services = [
     heroImage: "/images/espelho.webp",
     ctaImage: "/images/espelho.webp",
 
-    gallery: ["/images/espelho.webp"],
+    gallery: [
+      "/images/variados/espelho.webp",
+      "/images/variados/espelho-2.webp",
+    ],
 
     longDescription:
       "Os espelhos sob medida são ideais para quem deseja ampliar ambientes, melhorar a iluminação e trazer sofisticação à decoração. Trabalhamos com projetos personalizados para salas, quartos, banheiros, academias e comércios, sempre com acabamento de alto padrão e instalação segura.",
@@ -598,6 +617,8 @@ export const services = [
     gallery: [
       "/images/guarda-corpo/guarda-corpo-tangara.webp",
       "/images/guarda-corpo/mansaovidro.webp",
+      "/images/guarda-corpo/fachada-1.webp",
+      "/images/guarda-corpo/fachada-01.webp",
       "/images/guarda-corpo/guarda-corpo-1.webp",
       "/images/guarda-corpo/guarda-corpo-2.webp",
       "/images/guarda-corpo/guarda-corpo-3.webp",
@@ -609,7 +630,7 @@ export const services = [
       "/images/guarda-corpo/guarda-corpo-9.webp",
       "/images/guarda-corpo/guarda-corpo-10.webp",
       "/images/guarda-corpo/guarda-corpo-11.webp",
-      "/images/guarda-corpo/guarda-corpo-12.webp",
+      "/images/guarda-corpo/guarda-corpo-varanda.webp",
       "/images/guarda-corpo/guarda-corpo-13.webp",
       "/images/guarda-corpo/guarda-corpo-14.webp",
       "/images/guarda-corpo/guarda-corpo-15.webp",
@@ -696,10 +717,13 @@ export const services = [
     description:
       "Cobertura de vidro sob medida para áreas externas, oferecendo proteção, iluminação natural e valorização do imóvel com design sofisticado.",
 
-    heroImage: "/images/guarda-corpo/pergolado.webp",
-    ctaImage: "/images/guarda-corpo/pergolado.webp",
+    heroImage: "/images/variados/pergolado.webp",
+    ctaImage: "/images/variados/pergolado.webp",
 
-    gallery: ["/images/guarda-corpo/pergolado.webp"],
+    gallery: [
+      "/images/variados/pergolado.webp",
+      "/images/variados/pergolado-1.webp",
+    ],
 
     longDescription:
       "O teto pergolado de vidro é a solução ideal para quem deseja aproveitar melhor áreas externas como varandas, quintais e espaços gourmet. Ele protege contra chuva e excesso de sol sem bloquear a iluminação natural, mantendo o ambiente agradável, moderno e valorizado. Trabalhamos com projetos sob medida, utilizando vidro temperado resistente e estrutura segura para garantir durabilidade e um acabamento impecável.",
@@ -783,6 +807,8 @@ export const services = [
     ctaImage: "/slide-door-bg.webp",
     ctaVideo: "/videos/slide-door.mp4",
     gallery: [
+      "/images/portas/porta-area-gourmet.webp",
+      "/images/variados/blindex-chalé.webp",
       "/images/portas/porta-2.webp",
       "/images/portas/porta-3.webp",
       "/images/portas/porta-5.webp",
