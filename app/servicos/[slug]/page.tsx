@@ -6,9 +6,8 @@ import Reviews from "../components/Reviews";
 import type { Metadata } from "next";
 
 type Props = {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 };
-
 export async function generateStaticParams() {
   return [
     { slug: "box-de-banheiro" },
@@ -78,8 +77,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 /* =========================
    PAGE
 ========================= */
-export default async function ServicePage({ params }: Props) {
-  const { slug } = await params;
+export default function ServicePage({ params }: Props) {
+  const { slug } = params;
 
   const service = services.find(s => s.slug === slug);
 
