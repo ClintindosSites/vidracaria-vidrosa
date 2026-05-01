@@ -42,7 +42,7 @@ export default function Servicos() {
       description:
         "Espelhos sob medida que ampliam ambientes, valorizam a decoração e garantem acabamento sofisticado.",
       image: "/images/variados/espelho.webp",
-      link: "/servicos/espelho",
+      link: "/servicos/espelho-sob-medida",
     },
     {
       name: "Guarda Corpo",

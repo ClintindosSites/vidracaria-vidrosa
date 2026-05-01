@@ -53,7 +53,7 @@ export default function Header() {
           <Link href={"/servicos/guarda-corpo"}>Guarda Corpo</Link>
           <Link href={"/servicos/janelas-blindex"}>Janelas</Link>
           <Link href={"/servicos/portas-blindex"}>Portas</Link>
-          <Link href={"/servicos/espelho"}>Espelho</Link>
+          <Link href={"/servicos/espelho-sob-medida"}>Espelho</Link>
           <Link href={"/servicos/porta-slidedoor"}>Porta de Correr</Link>
           <Link href={"/servicos/pergolado"}>Pergolado</Link>
           <Link href={"/solicite-orcamento"} className="contato-btn">
@@ -101,7 +101,10 @@ export default function Header() {
         <Link href="/servicos/portas-blindex" onClick={() => setOpen(false)}>
           Portas
         </Link>
-        <Link href="/servicos/espelho" onClick={() => setOpen(false)}>
+        <Link
+          href="/servicos/espelho-sob-medida"
+          onClick={() => setOpen(false)}
+        >
           Espelho
         </Link>
         <Link href={"/servicos/porta-slidedoor"} onClick={() => setOpen(false)}>
