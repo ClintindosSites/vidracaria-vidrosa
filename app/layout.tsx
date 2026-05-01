@@ -6,6 +6,7 @@ import Script from "next/script";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import WhatsappFloat from "./components/WhatsappFloat";
+import CookieConsent from "./components/CookieConsent";
 
 // 🔤 FONTE
 const oswald = Oswald({
@@ -122,6 +123,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <WhatsappFloat />
+        <CookieConsent />
       </body>
     </html>
   );
