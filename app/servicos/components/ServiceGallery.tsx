@@ -3,11 +3,14 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-
+import { Scrollbar } from "swiper/modules";
+import "swiper/css/scrollbar";
 export default function ServiceGallery({ images, title }: any) {
   return (
     <div className="gallery-wrapper">
       <Swiper
+        modules={[Scrollbar]}
+        scrollbar={{ draggable: true }}
         slidesPerView={1.2}
         spaceBetween={10}
         centeredSlides={true}

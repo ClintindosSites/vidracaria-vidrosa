@@ -62,14 +62,14 @@ export default function Header() {
         </nav>
 
         {/* HAMBURGER */}
-        <div ref={menuRef} className="hamburger" onClick={() => setOpen(!open)}>
+        <div className="hamburger" onClick={() => setOpen(!open)}>
           <span></span>
           <span></span>
           <span></span>
         </div>
       </div>
       {/* MENU MOBILE OVERLAY */}
-      <div className={`mobile-menu ${open ? "active" : ""}`}>
+      <div ref={menuRef} className={`mobile-menu ${open ? "active" : ""}`}>
         <Link href="/" onClick={() => setOpen(false)}>
           Página Inicial
         </Link>

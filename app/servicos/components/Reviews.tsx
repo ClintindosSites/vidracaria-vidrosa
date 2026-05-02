@@ -35,7 +35,7 @@ export default function Reviews({ service }: { service: Service }) {
                   <div className="stars">★★★★★</div>
                 </div>
               </div>
-              <p>{review.text}</p>
+              <p className="reviewtext">{review.text}</p>
             </div>
           );
         })}

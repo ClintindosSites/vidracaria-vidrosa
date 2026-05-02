@@ -814,11 +814,21 @@ header .contato-btn:hover {
 }
 
 .review {
-  background: #0b1c2c;
+  background: #e7e3d8;
+  color: #0a0a0a;
   padding: 25px;
   border-radius: 12px;
   min-height: 200px;
   transition: 0.3s ease;
+}
+.review strong {
+  font-size: 1.6rem;
+}
+.review .stars {
+  font-size: 1.3rem;
+}
+.reviewtext {
+  font-size: 1.5rem;
 }
 .review:hover {
   transform: translateY(-5px);
@@ -835,8 +845,8 @@ header .contato-btn:hover {
   padding: 10px;
 }
 .avatar {
-  width: 45px;
-  height: 45px;
+  width: 65px;
+  height: 65px;
   background: linear-gradient(135deg, gold, #facc15);
   color: #000;
   font-weight: bold;
@@ -942,7 +952,23 @@ header .contato-btn:hover {
 .swiper {
   height: 100%;
 }
+.swiper {
+  --swiper-scrollbar-bg-color: rgba(255, 255, 255, 0.15);
+  --swiper-scrollbar-drag-bg-color: #d4af37;
+  --swiper-scrollbar-size: 6px;
+}
+.swiper-scrollbar {
+  background: rgba(255, 255, 255, 0.1) !important;
+  height: 6px !important;
+  border-radius: 20px;
+  bottom: 0px !important;
+}
 
+.swiper-scrollbar-drag {
+  background: linear-gradient(90deg, #c9a227, #ffd700, #c9a227) !important;
+  border-radius: 20px;
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+}
 .galeria-page {
   padding: 80px 20px;
   text-align: center;
