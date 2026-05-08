@@ -13,6 +13,10 @@ export default function ServicoCard({
   image,
   link,
 }: ServicoProps) {
+  const whatsappMessage = encodeURIComponent(
+    `Olá! Gostaria de solicitar um orçamento para ${name}.`
+  );
+
   return (
     <div className="servicos-card">
       <div
@@ -31,11 +35,11 @@ export default function ServicoCard({
         </Link>
 
         <Link
-          href="https://wa.me/5531992799772"
+          href={`https://wa.me/5531992799772?text=${whatsappMessage}`}
           target="_blank"
           className="cta-button"
         >
-          Solicitar Orçamento
+          Solicitar Orçamento pelo WhatsApp
         </Link>
       </div>
     </div>
